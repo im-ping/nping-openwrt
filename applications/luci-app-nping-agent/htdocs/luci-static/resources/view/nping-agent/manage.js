@@ -460,7 +460,7 @@ return view.extend({
         // Add registration status display field
         o = s.taboption('general', form.DummyValue, '_register_status', _("Registration Status"));
         o.cfgvalue = function () {
-            return E('span', { 'style': 'color:#0000FF;font-weight:bold' }, _('Registered'));
+            return E('span', { 'style': 'color:#008000;font-weight:bold' }, _('Registered'));
         };
 
         // Add service status display field
