@@ -447,7 +447,7 @@ return view.extend({
 
         s.tab('general', _('General Settings'));
 
-        o = s.taboption('general', form.Flag, 'enabled', _("开机自动启动"));
+        o = s.taboption('general', form.Flag, 'enabled', _("Enable"));
         o.rmempty = false;
         o.default = o.disabled;
 
