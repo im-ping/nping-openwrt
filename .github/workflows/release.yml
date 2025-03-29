@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build ${{ matrix.arch }}-${{ matrix.sdk }}
+    name: Build ${{ matrix.sdk }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -35,3 +35,10 @@ jobs:
         with:
           name: ${{ matrix.arch}}-packages
           path: bin/packages/${{ matrix.arch }}/action/*nping-agent*.ipk
+
+      - uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: bin/packages/${{ matrix.arch }}/action/*nping-agent*.ipk
+          file_glob: true
+          tag: ${{ github.ref }}
