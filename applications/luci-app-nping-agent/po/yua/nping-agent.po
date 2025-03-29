@@ -10,314 +10,318 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr ""
+msgstr "Táan u yilil u talamil le meyaj..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
+msgstr "Ma' túuch'aj u ts'íibil le nu'ukil: Ma' páajchaj u beeta'al le u ju'unil nu'ukil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr ""
+msgstr "Nu'ukbesik u meyaj u ch'íich'il NPing ti' le nu'ukulila'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
-msgstr ""
+msgstr "U jejeláasil le nu'ukulilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
 msgid "Device registered successfully"
-msgstr ""
+msgstr "Nu'ukul ts'o'ok u ts'íibta'al ma'alob"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr ""
+msgstr "Ma' tu béeychaj u éemsa'al: Ma' páajchaj u ch'a'abal u nu'ukulil le ch'íich'ilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr ""
+msgstr "Ma' tu béeychaj u jets'ik le éemsa'alo':"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u éemsa'al wa u jets'ik"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
-msgstr ""
+msgstr "Táan u éemsa'al yéetel u jets'a'al..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
+msgstr "Táan u éemsa'al yéetel u jets'a'al u nu'ukulil u ch'íich'il NPing, pachak a páa'tik..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Je'ebsik"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
-msgstr ""
+msgstr "Le ju'uno' mina'an"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
 msgid "General Settings"
-msgstr ""
+msgstr "Nu'ukbesajo'ob Generaltak"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u ch'a'abal"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr ""
+msgstr "Ts'áa permiso UCI yéetel u okol ti' ju'uno'ob ti'al luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr ""
+msgstr "Jets'ik u nu'ukulil u ch'íich'il NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
-msgstr ""
+msgstr "Ts'o'ok u Jets'a'al"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
+msgstr "Talamil ti' u jets'a'al: Ma' páajchaj u máansa'al le ju'un ti' u kúuchil le sistema"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
 msgid "Kernel Version"
-msgstr ""
+msgstr "U versiónil le Kernel"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr ""
+msgstr "Mina'an u ID le agente, ma' páajchaj u káajsik le meyajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 #: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
 msgid "NPing Node"
-msgstr ""
+msgstr "U ch'íich'il NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr ""
+msgstr "U nu'ukulil u ch'íich'il NPing mina'an, pachak a jets'ik yáax"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr ""
+msgstr "U nu'ukulil u ch'íich'il NPing ts'o'ok u jets'a'al ma'alob"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
+msgstr "U nu'ukulil u ch'íich'il NPing ma' ts'íibta'ani', pachak a ts'o'oksik le ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr ""
+msgstr "Mix jump'éel nu'ukbesaj k'e'exa'ani'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
-msgstr ""
+msgstr "U k'aaba' le ch'íich'ilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr ""
+msgstr "Ma' táan u meyaj"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr ""
+msgstr "Meyajil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr ""
+msgstr "Talamil ti' le parametro: U ID le agente ma' utsil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
-msgstr ""
+msgstr "Talamil ti' le parametro: U jejeláasil le nu'ukulil wa u bejil ma' utsil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
+msgstr "Talamil ti' le parametro: Pachak a xak'altik u yilik u llave le ts'íibtajo' yéetel u k'aaba' le ch'íich'ilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr ""
+msgstr "Talamil ti' le permiso: Ma' páajchaj u ts'a'abal permiso ti'al u meyajta'al"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr ""
+msgstr "Pachak a ts'íibtik jump'éel k'aaba' ch'íich'il utsil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr ""
+msgstr "Pachak a ts'íibtik jump'éel llave ts'íibtaj utsil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr ""
+msgstr "Pachak a ts'íibtik u k'aaba' le ch'íich'ilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr ""
+msgstr "Pachak a ts'íibtik u llave le ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr ""
+msgstr "Pachak a páa'tik..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr ""
+msgstr "Táan u nu'ukta'al u ts'íibta'al, pachak a páa'tik..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
-msgstr ""
+msgstr "Túuts'bentik Bejla'e'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
-msgstr ""
+msgstr "Ts'íibtik le Nu'ukulilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr ""
+msgstr "Ts'íibta'an"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr ""
+msgstr "Táan u ts'íibta'al u ch'íich'il NPing, pachak a páa'tik..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
 msgid "Registering..."
-msgstr ""
+msgstr "Táan u ts'íibta'al..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
 msgid "Registration Key"
-msgstr ""
+msgstr "U Llave le Ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr ""
+msgstr "U Talamil le Ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
 msgid "Registration failed:"
-msgstr ""
+msgstr "Ma' tu béeychaj u ts'íibta'al:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr ""
+msgstr "Ma' tu béeychaj u ts'íibta'al: Ma' páajchaj u xo'okol u nu'ukulil le núukajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr ""
+msgstr "Ma' tu béeychaj u ts'íibta'al: Le servero' tu p'ataj le k'áato'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u meyajta'al le k'áat ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr ""
+msgstr "Ma' tu béeychaj le k'áat ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u na'ata'al u núukil le ts'íibtajo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
-msgstr ""
+msgstr "Táan u meyaj"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
 msgid "Save Settings"
-msgstr ""
+msgstr "K'a'mik le Nu'ukbesajo'obo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr ""
+msgstr "U Meyajil le Servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr ""
+msgstr "U Talamil le Servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u káajal u meyajta'al le servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u káajal le servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr ""
+msgstr "Ma' tu béeychaj u káajal le servicio:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr ""
+msgstr "Ma' tu béeychaj u káajal le servicio: Ma' páajchaj u káajsik le servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr ""
+msgstr "Servicio káaja'an"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u yila'al u talamil le servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "Ma' tu béeychaj u ch'éenel u meyajta'al le servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "Ma' tu béeychaj u ch'éenel le servicio:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "Servicio ch'éenen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "Nu'ukbesajo'ob k'a'ma'an yéetel k'ubenta'an"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "Yaanchaj nu'ukbesajo'ob ma' k'a'ma'ani' wa ma' k'ubenta'ani', pachak a yáax tumbenkunsik pachil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "Káajsik Servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr ""
+msgstr "Táan u káajsik le servicio..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "Talamil"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "Ch'eensik Servicio"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "Táan u ch'eensik le servicio..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr ""
+msgstr "Le páginae' yaan u túuts'bensik tu juunal ichil 5 segundos..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr ""
+msgstr "Ma' páajchaj u jach k'ajóolta'al u k'aaba' u jaatsil le nu'ukilo'"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr ""
+msgstr "Ma' páajchaj u jach k'ajóolta'al u jejeláasil le nu'ukulilo', pachak a jets'ik yéetel a k'ab"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr ""
+msgstr "Ma' páajchaj u éemsa'al wa u jets'a'al u nu'ukulil u ch'íich'il NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -327,8 +331,4 @@ msgstr ""
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr ""
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr ""
+msgstr "Ma' k'ajóolta'ani'"

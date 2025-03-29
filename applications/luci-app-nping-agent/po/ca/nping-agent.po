@@ -14,8 +14,7 @@ msgstr "Comprovant l'estat del servei..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
-"Error d'escriptura de configuració: No es pot crear el fitxer de configuració"
+msgstr "Error en escriure la configuració: No es pot crear el fitxer de configuració"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -29,19 +28,19 @@ msgstr "Arquitectura del dispositiu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
 msgid "Device registered successfully"
-msgstr "Dispositiu registrat amb èxit"
+msgstr "Dispositiu registrat correctament"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Error de descàrrega: No es pot recuperar el programa del node"
+msgstr "La descàrrega ha fallat: No es pot recuperar el programa del node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "Error en la instal·lació de descàrrega:"
+msgstr "La instal·lació de la descàrrega ha fallat:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr "Error de descàrrega o instal·lació"
+msgstr "La descàrrega o la instal·lació han fallat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
@@ -49,7 +48,11 @@ msgstr "Descarregant i instal·lant..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "Descarregant i instal·lant el programa de node NPing, espereu..."
+msgstr "Descarregant i instal·lant el programa de node NPing, espereu si us plau..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Activar"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -62,11 +65,11 @@ msgstr "Configuració general"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr "Error en obtenir"
+msgstr "La obtenció ha fallat"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Concedir accés UCI i de fitxers per a luci-app-nping-agent"
+msgstr "Concedir accés a UCI i fitxers per a luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -78,8 +81,7 @@ msgstr "Instal·lació completa"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
-"Error d'instal·lació: No es pot moure el fitxer al directori del sistema"
+msgstr "Error d'instal·lació: No es pot moure el fitxer al directori del sistema"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -88,7 +90,7 @@ msgstr "Versió del kernel"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Falta ID d'agent, no es pot iniciar el servei"
+msgstr "Falta l'ID de l'agent, no es pot iniciar el servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -99,7 +101,7 @@ msgstr "Node NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "El programa de node NPing no existeix, instal·leu-lo primer"
+msgstr "El programa de node NPing no existeix, si us plau instal·leu-lo primer"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -107,7 +109,7 @@ msgstr "El programa de node NPing s'ha instal·lat correctament"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "El programa de node NPing no està registrat, completeu el registre"
+msgstr "El programa de node NPing no està registrat, si us plau completeu el registre"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -136,7 +138,7 @@ msgstr "Error de paràmetre: Arquitectura o ruta no vàlida"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Error de paràmetre: Verifiqueu la clau de registre i el nom del node"
+msgstr "Error de paràmetre: Si us plau, comproveu la clau de registre i el nom del node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
@@ -144,28 +146,28 @@ msgstr "Error de permisos: No es poden establir permisos d'execució"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr "Introduïu un nom de node vàlid"
+msgstr "Si us plau, introduïu un nom de node vàlid"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr "Introduïu una clau de registre vàlida"
+msgstr "Si us plau, introduïu una clau de registre vàlida"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr "Introduïu el nom del node"
+msgstr "Si us plau, introduïu el nom del node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr "Introduïu la clau de registre"
+msgstr "Si us plau, introduïu la clau de registre"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr "Espereu..."
+msgstr "Si us plau, espereu..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Preparant-se per registrar, espereu..."
+msgstr "Preparant per registrar, si us plau espereu..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -181,7 +183,7 @@ msgstr "Registrat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr "Registrant el node NPing, espereu..."
+msgstr "Registrant el node NPing, si us plau espereu..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
@@ -199,27 +201,27 @@ msgstr "Estat del registre"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
 msgid "Registration failed:"
-msgstr "Error de registre:"
+msgstr "El registre ha fallat:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr "Error de registre: No es poden llegir les dades de resposta"
+msgstr "El registre ha fallat: No es poden llegir les dades de resposta"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr "Error de registre: El servidor ha rebutjat la sol·licitud"
+msgstr "El registre ha fallat: El servidor ha rebutjat la sol·licitud"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr "Error en l'execució de la sol·licitud de registre"
+msgstr "Ha fallat l'execució de la sol·licitud de registre"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr "Error en la sol·licitud de registre"
+msgstr "Ha fallat la sol·licitud de registre"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Error en l'anàlisi de la resposta de registre"
+msgstr "Ha fallat l'anàlisi de la resposta de registre"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -231,7 +233,7 @@ msgstr "Desar configuració"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr "Operació del servei"
+msgstr "Operació de servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
@@ -239,19 +241,19 @@ msgstr "Estat del servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Error en l'execució d'inici del servei"
+msgstr "Ha fallat l'execució de l'inici del servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr "Error en l'inici del servei"
+msgstr "L'inici del servei ha fallat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr "Error en l'inici del servei:"
+msgstr "L'inici del servei ha fallat:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr "Error en l'inici del servei: No es pot iniciar el servei"
+msgstr "L'inici del servei ha fallat: No es pot iniciar el servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
@@ -259,32 +261,32 @@ msgstr "Servei iniciat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "Ha fallat la comprovació de l'estat del servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "Ha fallat l'execució de l'aturada del servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "L'aturada del servei ha fallat:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "Servei aturat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "Configuració desada i aplicada"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "Algunes configuracions no s'han desat o aplicat, si us plau torneu a provar més tard"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "Iniciar servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
@@ -293,15 +295,15 @@ msgstr "Iniciant servei..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "Aturar servei"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "Aturant servei..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
@@ -315,8 +317,7 @@ msgstr "No es pot determinar el nom de la secció de configuració"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr ""
-"No es pot determinar l'arquitectura del dispositiu, instal·leu manualment"
+msgstr "No es pot determinar l'arquitectura del dispositiu, si us plau instal·leu manualment"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -331,22 +332,3 @@ msgstr "No es pot descarregar o instal·lar el programa de node NPing"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Desconegut"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Inici automàtic a l'engegar"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "Iniciar servei NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "Aturar servei NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "Servei NPing aturat amb èxit"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Configuració actualitzada i servei reiniciat amb èxit"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Actualitzar configuració i reiniciar"

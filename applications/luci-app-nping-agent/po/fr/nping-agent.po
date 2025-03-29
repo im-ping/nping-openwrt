@@ -15,9 +15,7 @@ msgstr "Vérification de l'état du service..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
-"Échec de l'écriture de la configuration : Impossible de créer le fichier de "
-"configuration"
+msgstr "Échec de l'écriture de la configuration : Impossible de créer le fichier de configuration"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -47,13 +45,15 @@ msgstr "Échec du téléchargement ou de l'installation"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
-msgstr "Téléchargement et installation..."
+msgstr "Téléchargement et installation en cours..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
-"Téléchargement et installation du programme de nœud NPing, veuillez "
-"patienter..."
+msgstr "Téléchargement et installation du programme de nœud NPing, veuillez patienter..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Activer"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -82,9 +82,7 @@ msgstr "Installation terminée"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
-"Erreur d'installation : Impossible de déplacer le fichier vers le répertoire "
-"système"
+msgstr "Erreur d'installation : Impossible de déplacer le fichier vers le répertoire système"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -104,7 +102,7 @@ msgstr "Nœud NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Le programme de nœud NPing n'existe pas, veuillez d'abord l'installer"
+msgstr "Le programme de nœud NPing n'existe pas, veuillez l'installer d'abord"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -112,8 +110,7 @@ msgstr "Le programme de nœud NPing a été installé avec succès"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
-"Programme de nœud NPing non enregistré, veuillez compléter l'enregistrement"
+msgstr "Programme de nœud NPing non enregistré, veuillez compléter l'enregistrement"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -142,13 +139,11 @@ msgstr "Erreur de paramètre : Architecture ou chemin invalide"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
-"Erreur de paramètre : Veuillez vérifier la clé d'enregistrement et le nom du "
-"nœud"
+msgstr "Erreur de paramètre : Veuillez vérifier la clé d'enregistrement et le nom du nœud"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "Erreur de permission : Impossible de définir la permission d'exécution"
+msgstr "Erreur de permission : Impossible de définir les permissions d'exécution"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
@@ -194,7 +189,7 @@ msgstr "Enregistrement du nœud NPing, veuillez patienter..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
 msgid "Registering..."
-msgstr "Enregistrement..."
+msgstr "Enregistrement en cours..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
 msgid "Registration Key"
@@ -202,7 +197,7 @@ msgstr "Clé d'enregistrement"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr "Statut d'enregistrement"
+msgstr "État d'enregistrement"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
@@ -338,22 +333,3 @@ msgstr "Impossible de télécharger ou d'installer le programme de nœud NPing"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Inconnu"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Démarrage automatique au boot"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "Démarrer le service NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "Arrêter le service NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "Service NPing arrêté avec succès"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Configuration mise à jour et service redémarré avec succès"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Mettre à jour les paramètres et redémarrer"

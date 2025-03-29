@@ -12,314 +12,318 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr ""
+msgstr "Tikrinama paslaugos būsena..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
+msgstr "Konfigūracijos įrašymas nepavyko: Negalima sukurti konfigūracijos failo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr ""
+msgstr "Konfigūruoti NPing mazgo paslaugą šiame įrenginyje"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
-msgstr ""
+msgstr "Įrenginio architektūra"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
 msgid "Device registered successfully"
-msgstr ""
+msgstr "Įrenginys sėkmingai užregistruotas"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr ""
+msgstr "Atsisiuntimas nepavyko: Negalima gauti mazgo programos"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr ""
+msgstr "Atsisiuntimo diegimas nepavyko:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr ""
+msgstr "Atsisiuntimas arba diegimas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
-msgstr ""
+msgstr "Atsisiunčiama ir diegiama..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
+msgstr "Atsisiunčiama ir diegiama NPing mazgo programa, prašome palaukti..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Įjungti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
-msgstr ""
+msgstr "Failas neegzistuoja"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
 msgid "General Settings"
-msgstr ""
+msgstr "Bendrieji nustatymai"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr ""
+msgstr "Gauti nepavyko"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr ""
+msgstr "Suteikti UCI ir failų prieigą luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr ""
+msgstr "Įdiegti NPing mazgo programą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
-msgstr ""
+msgstr "Diegimas baigtas"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
+msgstr "Diegimo klaida: Negalima perkelti failo į sistemos katalogą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
 msgid "Kernel Version"
-msgstr ""
+msgstr "Branduolio versija"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr ""
+msgstr "Trūksta agento ID, negalima paleisti paslaugos"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 #: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
 msgid "NPing Node"
-msgstr ""
+msgstr "NPing mazgas"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr ""
+msgstr "NPing mazgo programa neegzistuoja, pirmiausia įdiekite"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr ""
+msgstr "NPing mazgo programa buvo sėkmingai įdiegta"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
+msgstr "NPing mazgo programa neregistruota, prašome užbaigti registraciją"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr ""
+msgstr "Nustatymai nepakeisti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
-msgstr ""
+msgstr "Mazgo pavadinimas"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr ""
+msgstr "Neveikia"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr ""
+msgstr "Operacija"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr ""
+msgstr "Parametro klaida: Neteisingas agento ID"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
-msgstr ""
+msgstr "Parametro klaida: Neteisinga architektūra arba kelias"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
+msgstr "Parametro klaida: Patikrinkite registracijos raktą ir mazgo pavadinimą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr ""
+msgstr "Leidimų klaida: Negalima nustatyti vykdymo leidimo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr ""
+msgstr "Įveskite teisingą mazgo pavadinimą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr ""
+msgstr "Įveskite teisingą registracijos raktą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr ""
+msgstr "Įveskite mazgo pavadinimą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr ""
+msgstr "Įveskite registracijos raktą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr ""
+msgstr "Prašome palaukti..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr ""
+msgstr "Ruošiamasi registruoti, prašome palaukti..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
-msgstr ""
+msgstr "Atnaujinti dabar"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
-msgstr ""
+msgstr "Registruoti įrenginį"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr ""
+msgstr "Užregistruota"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr ""
+msgstr "Registruojamas NPing mazgas, prašome palaukti..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
 msgid "Registering..."
-msgstr ""
+msgstr "Registruojama..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
 msgid "Registration Key"
-msgstr ""
+msgstr "Registracijos raktas"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr ""
+msgstr "Registracijos būsena"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
 msgid "Registration failed:"
-msgstr ""
+msgstr "Registracija nepavyko:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr ""
+msgstr "Registracija nepavyko: Negalima perskaityti atsakymo duomenų"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr ""
+msgstr "Registracija nepavyko: Serveris atmetė užklausą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr ""
+msgstr "Registracijos užklausos vykdymas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr ""
+msgstr "Registracijos užklausa nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr ""
+msgstr "Registracijos atsakymo apdorojimas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
-msgstr ""
+msgstr "Veikia"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
 msgid "Save Settings"
-msgstr ""
+msgstr "Išsaugoti nustatymus"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr ""
+msgstr "Paslaugos operacija"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr ""
+msgstr "Paslaugos būsena"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr ""
+msgstr "Paslaugos paleidimo vykdymas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr ""
+msgstr "Paslaugos paleidimas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr ""
+msgstr "Paslaugos paleidimas nepavyko:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr ""
+msgstr "Paslaugos paleidimas nepavyko: Negalima paleisti paslaugos"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr ""
+msgstr "Paslauga paleista"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "Paslaugos būsenos patikrinimas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "Paslaugos sustabdymo vykdymas nepavyko"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "Paslaugos sustabdymas nepavyko:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "Paslauga sustabdyta"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "Nustatymai išsaugoti ir pritaikyti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "Kai kurie nustatymai nebuvo išsaugoti ar pritaikyti, bandykite dar kartą vėliau"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "Paleisti paslaugą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr ""
+msgstr "Paleidžiama paslauga..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "Būsena"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "Sustabdyti paslaugą"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "Stabdoma paslauga..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr ""
+msgstr "Puslapis automatiškai atsinaujins po 5 sekundžių..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr ""
+msgstr "Nepavyksta nustatyti konfigūracijos sekcijos pavadinimo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr ""
+msgstr "Nepavyksta nustatyti įrenginio architektūros, prašome įdiegti rankiniu būdu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr ""
+msgstr "Nepavyksta atsisiųsti ar įdiegti NPing mazgo programos"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -329,8 +333,4 @@ msgstr ""
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr ""
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr ""
+msgstr "Nežinoma"

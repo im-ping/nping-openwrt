@@ -15,7 +15,7 @@ msgstr "Đang kiểm tra trạng thái dịch vụ..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr "Ghi cấu hình thất bại: Không thể tạo tập tin cấu hình"
+msgstr "Ghi cấu hình thất bại: Không thể tạo tệp cấu hình"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -51,9 +51,13 @@ msgstr "Đang tải xuống và cài đặt..."
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "Đang tải xuống và cài đặt chương trình nút NPing, vui lòng đợi..."
 
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Bật"
+
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
-msgstr "Tập tin không tồn tại"
+msgstr "Tệp không tồn tại"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
@@ -66,7 +70,7 @@ msgstr "Lấy thất bại"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Cấp quyền truy cập UCI và tập tin cho luci-app-nping-agent"
+msgstr "Cấp quyền truy cập UCI và tệp cho luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -78,7 +82,7 @@ msgstr "Cài đặt hoàn tất"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr "Lỗi cài đặt: Không thể di chuyển tập tin đến thư mục hệ thống"
+msgstr "Lỗi cài đặt: Không thể di chuyển tệp đến thư mục hệ thống"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -87,7 +91,7 @@ msgstr "Phiên bản nhân"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Thiếu ID Agent, không thể khởi động dịch vụ"
+msgstr "Thiếu ID đại lý, không thể khởi động dịch vụ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -106,7 +110,7 @@ msgstr "Chương trình nút NPing đã được cài đặt thành công"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "Chương trình nút NPing chưa đăng ký, vui lòng hoàn tất đăng ký"
+msgstr "Chương trình nút NPing chưa được đăng ký, vui lòng hoàn tất đăng ký"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -123,11 +127,11 @@ msgstr "Không chạy"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr "Thao tác"
+msgstr "Hoạt động"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr "Lỗi tham số: ID Agent không hợp lệ"
+msgstr "Lỗi tham số: ID đại lý không hợp lệ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
@@ -210,7 +214,7 @@ msgstr "Đăng ký thất bại: Máy chủ từ chối yêu cầu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr "Thực hiện yêu cầu đăng ký thất bại"
+msgstr "Thực thi yêu cầu đăng ký thất bại"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
@@ -230,7 +234,7 @@ msgstr "Lưu cài đặt"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr "Thao tác dịch vụ"
+msgstr "Hoạt động dịch vụ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
@@ -238,7 +242,7 @@ msgstr "Trạng thái dịch vụ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Thực hiện khởi động dịch vụ thất bại"
+msgstr "Thực thi khởi động dịch vụ thất bại"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
@@ -262,7 +266,7 @@ msgstr "Kiểm tra trạng thái dịch vụ thất bại"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr "Thực hiện dừng dịch vụ thất bại"
+msgstr "Thực thi dừng dịch vụ thất bại"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
@@ -304,7 +308,7 @@ msgstr "Đang dừng dịch vụ..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "Trang sẽ tự động làm mới trong 5 giây..."
+msgstr "Trang sẽ tự động làm mới sau 5 giây..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
@@ -329,22 +333,3 @@ msgstr "Không thể tải xuống hoặc cài đặt chương trình nút NPing
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Không xác định"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Tự động khởi động khi khởi động"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "Khởi động dịch vụ NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "Dừng dịch vụ NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "Đã dừng dịch vụ NPing thành công"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Đã cập nhật cấu hình và khởi động lại dịch vụ thành công"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Cập nhật cài đặt và khởi động lại"

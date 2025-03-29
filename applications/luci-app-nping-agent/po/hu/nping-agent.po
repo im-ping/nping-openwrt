@@ -15,8 +15,7 @@ msgstr "Szolgáltatás állapotának ellenőrzése..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
-"Konfigurációs írás sikertelen: Nem lehet létrehozni a konfigurációs fájlt"
+msgstr "Konfigurációs írás sikertelen: Nem lehet létrehozni a konfigurációs fájlt"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -34,7 +33,7 @@ msgstr "Az eszköz sikeresen regisztrálva"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Letöltés sikertelen: Nem lehet letölteni a csomópont programot"
+msgstr "Letöltés sikertelen: Nem sikerült lekérni a csomópont programot"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
@@ -51,6 +50,10 @@ msgstr "Letöltés és telepítés..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "NPing csomópont program letöltése és telepítése, kérjük várjon..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Engedélyezés"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -107,17 +110,16 @@ msgstr "NPing csomópont program sikeresen telepítve"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
-"NPing csomópont program nincs regisztrálva, kérjük fejezze be a regisztrációt"
+msgstr "NPing csomópont program nincs regisztrálva, kérjük fejezze be a regisztrációt"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr "Nincs módosított beállítás"
+msgstr "Nem módosult beállítás"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
-msgstr "Csomópont neve"
+msgstr "Csomópont név"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
@@ -137,9 +139,7 @@ msgstr "Paraméter hiba: Érvénytelen architektúra vagy útvonal"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
-"Paraméter hiba: Kérjük ellenőrizze a regisztrációs kulcsot és a csomópont "
-"nevét"
+msgstr "Paraméter hiba: Kérjük ellenőrizze a regisztrációs kulcsot és a csomópont nevét"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
@@ -168,7 +168,7 @@ msgstr "Kérjük várjon..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Regisztrációra felkészülés, kérjük várjon..."
+msgstr "Felkészülés a regisztrációra, kérjük várjon..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -180,7 +180,7 @@ msgstr "Eszköz regisztrálása"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr "Regisztrálva"
+msgstr "Regisztrált"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
@@ -197,7 +197,7 @@ msgstr "Regisztrációs kulcs"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr "Regisztrációs állapot"
+msgstr "Regisztráció állapota"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
@@ -242,7 +242,7 @@ msgstr "Szolgáltatás állapota"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Szolgáltatás indítása végrehajtása sikertelen"
+msgstr "Szolgáltatás indítási végrehajtás sikertelen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
@@ -262,11 +262,11 @@ msgstr "Szolgáltatás elindítva"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr "Szolgáltatás állapot ellenőrzése sikertelen"
+msgstr "Szolgáltatás állapot ellenőrzés sikertelen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr "Szolgáltatás leállítása végrehajtása sikertelen"
+msgstr "Szolgáltatás leállítási végrehajtás sikertelen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
@@ -283,7 +283,7 @@ msgstr "Beállítások mentve és alkalmazva"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr "Néhány beállítás nem került mentésre vagy alkalmazásra, kérjük próbálja újra később"
+msgstr "Néhány beállítás nem lett mentve vagy alkalmazva, kérjük próbálja újra később"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
@@ -313,18 +313,16 @@ msgstr "Az oldal automatikusan frissül 5 másodpercen belül..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "Nem lehet meghatározni a konfigurációs szakasz nevét"
+msgstr "Nem sikerült meghatározni a konfigurációs szakasz nevét"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr ""
-"Nem lehet meghatározni az eszköz architektúráját, kérjük telepítsen "
-"manuálisan"
+msgstr "Nem sikerült meghatározni az eszköz architektúráját, kérjük telepítse manuálisan"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr "Nem lehet letölteni vagy telepíteni a NPing csomópont programot"
+msgstr "Nem sikerült letölteni vagy telepíteni az NPing csomópont programot"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -335,22 +333,3 @@ msgstr "Nem lehet letölteni vagy telepíteni a NPing csomópont programot"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Ismeretlen"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Automatikus indítás rendszerindításkor"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "NPing szolgáltatás indítása"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "NPing szolgáltatás leállítása"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "NPing szolgáltatás sikeresen leállítva"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Konfiguráció sikeresen frissítve és szolgáltatás újraindítva"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Beállítások frissítése és újraindítás"

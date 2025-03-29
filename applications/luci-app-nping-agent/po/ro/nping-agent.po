@@ -16,7 +16,7 @@ msgstr "Se verifică starea serviciului..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr "Scrierea configurației a eșuat: Nu se poate crea fișierul de configurare"
+msgstr "Scriere configurație eșuată: Nu se poate crea fișierul de configurare"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -34,15 +34,15 @@ msgstr "Dispozitiv înregistrat cu succes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Descărcare eșuată: Nu se poate prelua programul de nod"
+msgstr "Descărcare eșuată: Nu se poate prelua programul nodului"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "Instalarea descărcării a eșuat:"
+msgstr "Instalare descărcare eșuată:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr "Descărcarea sau instalarea a eșuat"
+msgstr "Descărcare sau instalare eșuată"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
@@ -50,7 +50,11 @@ msgstr "Se descarcă și se instalează..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "Se descarcă și se instalează programul de nod NPing, vă rugăm să așteptați..."
+msgstr "Se descarcă și se instalează programul nodului NPing, vă rugăm să așteptați..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Activare"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -67,11 +71,11 @@ msgstr "Obținere eșuată"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Acordați acces UCI și la fișiere pentru luci-app-nping-agent"
+msgstr "Acordă acces UCI și fișier pentru luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr "Instalați programul de nod NPing"
+msgstr "Instalați programul nodului NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
@@ -88,7 +92,7 @@ msgstr "Versiune Kernel"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "ID-ul agentului lipsește, nu se poate porni serviciul"
+msgstr "ID Agent lipsă, nu se poate porni serviciul"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -99,24 +103,24 @@ msgstr "Nod NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Programul de nod NPing nu există, vă rugăm să-l instalați mai întâi"
+msgstr "Programul nodului NPing nu există, vă rugăm să instalați mai întâi"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr "Programul de nod NPing a fost instalat cu succes"
+msgstr "Programul nodului NPing a fost instalat cu succes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "Programul de nod NPing nu este înregistrat, vă rugăm să completați înregistrarea"
+msgstr "Programul nodului NPing nu este înregistrat, vă rugăm să completați înregistrarea"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr "Nu s-au modificat setările"
+msgstr "Nicio setare modificată"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
-msgstr "Numele nodului"
+msgstr "Nume Nod"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
@@ -124,19 +128,19 @@ msgstr "Nu rulează"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr "Operațiune"
+msgstr "Operație"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr "Eroare de parametru: ID agent invalid"
+msgstr "Eroare parametru: ID Agent invalid"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
-msgstr "Eroare de parametru: Arhitectură sau cale invalidă"
+msgstr "Eroare parametru: Arhitectură sau cale invalidă"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Eroare de parametru: Vă rugăm să verificați cheia de înregistrare și numele nodului"
+msgstr "Eroare parametru: Vă rugăm să verificați cheia de înregistrare și numele nodului"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
@@ -165,7 +169,7 @@ msgstr "Vă rugăm să așteptați..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Se pregătește înregistrarea, vă rugăm să așteptați..."
+msgstr "Se pregătește pentru înregistrare, vă rugăm să așteptați..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -173,7 +177,7 @@ msgstr "Reîmprospătează acum"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
-msgstr "Înregistrează dispozitivul"
+msgstr "Înregistrează dispozitiv"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
@@ -199,15 +203,15 @@ msgstr "Stare înregistrare"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
 msgid "Registration failed:"
-msgstr "Înregistrarea a eșuat:"
+msgstr "Înregistrare eșuată:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr "Înregistrarea a eșuat: Nu se pot citi datele de răspuns"
+msgstr "Înregistrare eșuată: Nu se pot citi datele de răspuns"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr "Înregistrarea a eșuat: Serverul a refuzat cererea"
+msgstr "Înregistrare eșuată: Serverul a refuzat cererea"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
@@ -215,11 +219,11 @@ msgstr "Executarea cererii de înregistrare a eșuat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr "Cerere de înregistrare eșuată"
+msgstr "Cererea de înregistrare a eșuat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Parsarea răspunsului de înregistrare a eșuat"
+msgstr "Analiza răspunsului de înregistrare a eșuat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -227,11 +231,11 @@ msgstr "Rulează"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
 msgid "Save Settings"
-msgstr "Salvează setările"
+msgstr "Salvare setări"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr "Operațiune serviciu"
+msgstr "Operație serviciu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
@@ -255,7 +259,7 @@ msgstr "Pornirea serviciului a eșuat: Nu se poate porni serviciul"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr "Serviciul a fost pornit"
+msgstr "Serviciu pornit"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
@@ -271,11 +275,11 @@ msgstr "Oprirea serviciului a eșuat:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr "Serviciul a fost oprit"
+msgstr "Serviciu oprit"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr "Setările au fost salvate și aplicate"
+msgstr "Setări salvate și aplicate"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
@@ -284,7 +288,7 @@ msgstr "Unele setări nu au fost salvate sau aplicate, vă rugăm să încercaț
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr "Pornește serviciul"
+msgstr "Pornire serviciu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
@@ -297,7 +301,7 @@ msgstr "Stare"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr "Oprește serviciul"
+msgstr "Oprire serviciu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
@@ -319,7 +323,7 @@ msgstr "Nu se poate determina arhitectura dispozitivului, vă rugăm să instala
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr "Nu se poate descărca sau instala programul de nod NPing"
+msgstr "Nu se poate descărca sau instala programul nodului NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -330,7 +334,3 @@ msgstr "Nu se poate descărca sau instala programul de nod NPing"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Necunoscut"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Pornire automată la boot"

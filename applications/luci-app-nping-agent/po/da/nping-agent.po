@@ -21,7 +21,7 @@ msgstr "Konfigurationsskrivning mislykkedes: Kan ikke oprette konfigurationsfil"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr "Konfigurer NPing-nodetjeneste på denne enhed"
+msgstr "Konfigurer NPing node-tjeneste på denne enhed"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
@@ -29,15 +29,15 @@ msgstr "Enhedsarkitektur"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
 msgid "Device registered successfully"
-msgstr "Enheden er blevet registreret med succes"
+msgstr "Enhed registreret med succes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Download mislykkedes: Kan ikke hente nodeprogram"
+msgstr "Download mislykkedes: Kan ikke hente node-program"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "Download-installation mislykkedes:"
+msgstr "Download af installation mislykkedes:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
@@ -49,7 +49,11 @@ msgstr "Downloader og installerer..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "Downloader og installerer NPing-nodeprogram, vent venligst..."
+msgstr "Downloader og installerer NPing node-program, vent venligst..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Aktivér"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -66,11 +70,11 @@ msgstr "Hentning mislykkedes"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Giv UCI og filadgang til luci-app-nping-agent"
+msgstr "Giv UCI- og filadgang til luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr "Installer NPing-nodeprogram"
+msgstr "Installer NPing node-program"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
@@ -87,26 +91,26 @@ msgstr "Kerneversion"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Manglende agent-ID, kan ikke starte tjenesten"
+msgstr "Manglende Agent-ID, kan ikke starte tjenesten"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 #: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
 msgid "NPing Node"
-msgstr "NPing-node"
+msgstr "NPing Node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "NPing-nodeprogram findes ikke, installer venligst først"
+msgstr "NPing node-program findes ikke, installer venligst først"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr "NPing-nodeprogram er blevet installeret med succes"
+msgstr "NPing node-program er blevet installeret med succes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "NPing-nodeprogram er ikke registreret, fuldfør venligst registreringen"
+msgstr "NPing node-program ikke registreret, fuldfør venligst registreringen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -127,7 +131,7 @@ msgstr "Handling"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr "Parameterfejl: Ugyldigt agent-ID"
+msgstr "Parameterfejl: Ugyldigt Agent-ID"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
@@ -139,7 +143,7 @@ msgstr "Parameterfejl: Kontroller venligst registreringsnøgle og nodenavn"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "Rettighedsfejl: Kan ikke indstille udførelsestilladelse"
+msgstr "Tilladelsefejl: Kan ikke indstille kørselstilladelse"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
@@ -180,7 +184,7 @@ msgstr "Registreret"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr "Registrerer NPing-node, vent venligst..."
+msgstr "Registrerer NPing node, vent venligst..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
@@ -218,7 +222,7 @@ msgstr "Registreringsanmodning mislykkedes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Parsing af registreringssvar mislykkedes"
+msgstr "Analyse af registreringssvar mislykkedes"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -254,7 +258,7 @@ msgstr "Tjenestestart mislykkedes: Kan ikke starte tjenesten"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr "Tjenesten er startet"
+msgstr "Tjeneste startet"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
@@ -270,7 +274,7 @@ msgstr "Tjenestestop mislykkedes:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr "Tjenesten er stoppet"
+msgstr "Tjeneste stoppet"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
@@ -279,7 +283,7 @@ msgstr "Indstillinger gemt og anvendt"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr "Nogle indstillinger er ikke blevet gemt eller anvendt, prøv igen senere"
+msgstr "Nogle indstillinger er ikke blevet gemt eller anvendt, prøv venligst igen senere"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
@@ -304,12 +308,12 @@ msgstr "Stopper tjeneste..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "Siden opdateres automatisk om 5 sekunder..."
+msgstr "Siden vil automatisk opdatere om 5 sekunder..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "Kan ikke bestemme konfigurationssektionsnavn"
+msgstr "Kan ikke bestemme navn på konfigurationssektion"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
@@ -318,7 +322,7 @@ msgstr "Kan ikke bestemme enhedsarkitektur, installer venligst manuelt"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr "Kan ikke downloade eller installere NPing-nodeprogram"
+msgstr "Kan ikke downloade eller installere NPing node-program"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -329,7 +333,3 @@ msgstr "Kan ikke downloade eller installere NPing-nodeprogram"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Ukendt"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Start automatisk ved opstart"

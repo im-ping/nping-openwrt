@@ -20,7 +20,7 @@ msgstr "Penulisan konfigurasi gagal: Tidak dapat mencipta fail konfigurasi"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr "Konfigurasi perkhidmatan nod NPing pada peranti ini"
+msgstr "Konfigurasikan perkhidmatan nod NPing pada peranti ini"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
@@ -50,6 +50,10 @@ msgstr "Memuat turun dan Memasang..."
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "Memuat turun dan memasang program nod NPing, sila tunggu..."
 
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Aktifkan"
+
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
 msgstr "Fail tidak wujud"
@@ -61,7 +65,7 @@ msgstr "Tetapan Umum"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr "Mendapatkan gagal"
+msgstr "Dapatkan gagal"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
@@ -86,7 +90,7 @@ msgstr "Versi Kernel"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "ID Agen hilang, tidak dapat memulakan perkhidmatan"
+msgstr "ID Agen tiada, tidak dapat memulakan perkhidmatan"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -97,7 +101,7 @@ msgstr "Nod NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Program nod NPing tidak wujud, sila pasang terlebih dahulu"
+msgstr "Program nod NPing tidak wujud, sila pasang dahulu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -134,7 +138,7 @@ msgstr "Ralat parameter: Seni bina atau laluan tidak sah"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Ralat parameter: Sila periksa kunci pendaftaran dan nama nod"
+msgstr "Ralat parameter: Sila semak kunci pendaftaran dan nama nod"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
@@ -328,7 +332,3 @@ msgstr "Tidak dapat memuat turun atau memasang program nod NPing"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Tidak diketahui"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Mula secara automatik semasa but"

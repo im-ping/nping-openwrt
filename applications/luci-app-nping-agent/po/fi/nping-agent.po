@@ -33,7 +33,7 @@ msgstr "Laite rekisteröity onnistuneesti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Lataus epäonnistui: Solmuohjelmaa ei voida noutaa"
+msgstr "Lataus epäonnistui: Solmuohjelmaa ei voida hakea"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
@@ -49,7 +49,11 @@ msgstr "Ladataan ja asennetaan..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "Ladataan ja asennetaan NPing-solmuohjelmaa, odota hetki..."
+msgstr "Ladataan ja asennetaan NPing-solmuohjelmaa, odota..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Ota käyttöön"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -98,7 +102,7 @@ msgstr "NPing-solmu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "NPing-solmuohjelmaa ei ole olemassa, asenna se ensin"
+msgstr "NPing-solmuohjelmaa ei ole olemassa, asenna ensin"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -111,7 +115,7 @@ msgstr "NPing-solmuohjelmaa ei ole rekisteröity, suorita rekisteröinti loppuun
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr "Asetuksia ei muutettu"
+msgstr "Ei muutettuja asetuksia"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
@@ -160,11 +164,11 @@ msgstr "Anna rekisteröintiavain"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr "Odota hetki..."
+msgstr "Odota..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Valmistellaan rekisteröintiä, odota hetki..."
+msgstr "Valmistellaan rekisteröintiä, odota..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -180,7 +184,7 @@ msgstr "Rekisteröity"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr "Rekisteröidään NPing-solmua, odota hetki..."
+msgstr "Rekisteröidään NPing-solmua, odota..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
@@ -238,7 +242,7 @@ msgstr "Palvelun tila"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Palvelun käynnistyksen suoritus epäonnistui"
+msgstr "Palvelun käynnistyssuoritus epäonnistui"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
@@ -254,32 +258,32 @@ msgstr "Palvelun käynnistys epäonnistui: Palvelua ei voida käynnistää"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr "Palvelu käynnistyi"
+msgstr "Palvelu käynnistetty"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr "Palvelun tilaa tarkistettaessa epäonnistui"
+msgstr "Palvelun tilan tarkistus epäonnistui"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr "Palvelun lopetus suoritus epäonnistui"
+msgstr "Palvelun pysäytyssuoritus epäonnistui"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr "Palvelun lopetus epäonnistui:"
+msgstr "Palvelun pysäytys epäonnistui:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr "Palvelu lopetettiin"
+msgstr "Palvelu pysäytetty"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr "Asetukset tallennettiin ja sovellettiin"
+msgstr "Asetukset tallennettu ja otettu käyttöön"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr "Joitakin asetuksia ei voida tallentaa tai soveltaa, yritä myöhemmin uudelleen"
+msgstr "Joitain asetuksia ei ole tallennettu tai otettu käyttöön, yritä myöhemmin uudelleen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
@@ -287,7 +291,7 @@ msgstr "Käynnistä palvelu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr "Käynnistetään palvelu..."
+msgstr "Käynnistetään palvelua..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
@@ -296,25 +300,25 @@ msgstr "Tila"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr "Lopeta palvelu"
+msgstr "Pysäytä palvelu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr "Lopetetaan palvelua..."
+msgstr "Pysäytetään palvelua..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "Sivu päivitetään automaattisesti 5 sekunnin kuluttua..."
+msgstr "Sivu päivittyy automaattisesti 5 sekunnin kuluttua..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "Asetustekstin nimen määrittäminen epäonnistui"
+msgstr "Määritysosion nimeä ei voida määrittää"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "Laitteen arkkitehtuuria ei voida määrittää automaattisesti, asenna se käsin"
+msgstr "Laitteen arkkitehtuuria ei voida määrittää, asenna manuaalisesti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -328,8 +332,4 @@ msgstr "NPing-solmuohjelmaa ei voida ladata tai asentaa"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr ""
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr ""
+msgstr "Tuntematon"

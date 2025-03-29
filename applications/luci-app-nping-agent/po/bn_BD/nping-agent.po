@@ -10,314 +10,318 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr ""
+msgstr "সার্ভিসের অবস্থা পরীক্ষা করা হচ্ছে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
+msgstr "কনফিগারেশন লেখা ব্যর্থ হয়েছে: কনফিগারেশন ফাইল তৈরি করা যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr ""
+msgstr "এই ডিভাইসে NPing নোড সার্ভিস কনফিগার করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
-msgstr ""
+msgstr "ডিভাইস আর্কিটেকচার"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
 msgid "Device registered successfully"
-msgstr ""
+msgstr "ডিভাইস সফলভাবে নিবন্ধিত হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr ""
+msgstr "ডাউনলোড ব্যর্থ হয়েছে: নোড প্রোগ্রাম পুনরুদ্ধার করা যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr ""
+msgstr "ডাউনলোড ইনস্টলেশন ব্যর্থ হয়েছে:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr ""
+msgstr "ডাউনলোড বা ইনস্টলেশন ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
-msgstr ""
+msgstr "ডাউনলোড ও ইনস্টল করা হচ্ছে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম ডাউনলোড ও ইনস্টল করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "সক্রিয় করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
-msgstr ""
+msgstr "ফাইল বিদ্যমান নেই"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
 msgid "General Settings"
-msgstr ""
+msgstr "সাধারণ সেটিংস"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr ""
+msgstr "সংগ্রহ ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr ""
+msgstr "luci-app-nping-agent এর জন্য UCI এবং ফাইল অ্যাক্সেস প্রদান করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম ইনস্টল করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
-msgstr ""
+msgstr "ইনস্টলেশন সম্পন্ন হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
+msgstr "ইনস্টলেশন ত্রুটি: ফাইলকে সিস্টেম ডিরেক্টরিতে সরানো যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
 msgid "Kernel Version"
-msgstr ""
+msgstr "কার্নেল সংস্করণ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr ""
+msgstr "এজেন্ট আইডি অনুপস্থিত, সার্ভিস শুরু করা যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 #: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
 msgid "NPing Node"
-msgstr ""
+msgstr "NPing নোড"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম বিদ্যমান নেই, অনুগ্রহ করে প্রথমে ইনস্টল করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম সফলভাবে ইনস্টল করা হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম নিবন্ধিত নয়, অনুগ্রহ করে নিবন্ধন সম্পূর্ণ করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr ""
+msgstr "কোন সেটিংস পরিবর্তন করা হয়নি"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
-msgstr ""
+msgstr "নোডের নাম"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr ""
+msgstr "চলছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr ""
+msgstr "অপারেশন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr ""
+msgstr "প্যারামিটার ত্রুটি: অবৈধ এজেন্ট আইডি"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
-msgstr ""
+msgstr "প্যারামিটার ত্রুটি: অবৈধ আর্কিটেকচার বা পথ"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
+msgstr "প্যারামিটার ত্রুটি: অনুগ্রহ করে নিবন্ধন কী এবং নোডের নাম পরীক্ষা করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr ""
+msgstr "অনুমতি ত্রুটি: এক্সিকিউশন অনুমতি সেট করা যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr ""
+msgstr "অনুগ্রহ করে একটি বৈধ নোডের নাম লিখুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr ""
+msgstr "অনুগ্রহ করে একটি বৈধ নিবন্ধন কী লিখুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr ""
+msgstr "অনুগ্রহ করে নোডের নাম লিখুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr ""
+msgstr "অনুগ্রহ করে নিবন্ধন কী লিখুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr ""
+msgstr "অনুগ্রহ করে অপেক্ষা করুন..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr ""
+msgstr "নিবন্ধনের জন্য প্রস্তুত হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
-msgstr ""
+msgstr "এখন রিফ্রেশ করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
-msgstr ""
+msgstr "ডিভাইস নিবন্ধন করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr ""
+msgstr "নিবন্ধিত"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr ""
+msgstr "NPing নোড নিবন্ধন করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
 msgid "Registering..."
-msgstr ""
+msgstr "নিবন্ধন করা হচ্ছে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
 msgid "Registration Key"
-msgstr ""
+msgstr "নিবন্ধন কী"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr ""
+msgstr "নিবন্ধন অবস্থা"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
 msgid "Registration failed:"
-msgstr ""
+msgstr "নিবন্ধন ব্যর্থ হয়েছে:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr ""
+msgstr "নিবন্ধন ব্যর্থ হয়েছে: প্রতিক্রিয়া ডেটা পড়া যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr ""
+msgstr "নিবন্ধন ব্যর্থ হয়েছে: সার্ভার অনুরোধ প্রত্যাখ্যান করেছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr ""
+msgstr "নিবন্ধন অনুরোধ কার্যকরকরণ ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr ""
+msgstr "নিবন্ধন অনুরোধ ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr ""
+msgstr "নিবন্ধন প্রতিক্রিয়া পার্সিং ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
-msgstr ""
+msgstr "চলছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
 msgid "Save Settings"
-msgstr ""
+msgstr "সেটিংস সংরক্ষণ করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr ""
+msgstr "সার্ভিস অপারেশন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr ""
+msgstr "সার্ভিস অবস্থা"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr ""
+msgstr "সার্ভিস শুরু কার্যকরকরণ ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr ""
+msgstr "সার্ভিস শুরু ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr ""
+msgstr "সার্ভিস শুরু ব্যর্থ হয়েছে:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr ""
+msgstr "সার্ভিস শুরু ব্যর্থ হয়েছে: সার্ভিস শুরু করা যাচ্ছে না"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr ""
+msgstr "সার্ভিস শুরু হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "সার্ভিস অবস্থা পরীক্ষা ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "সার্ভিস বন্ধ কার্যকরকরণ ব্যর্থ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "সার্ভিস বন্ধ ব্যর্থ হয়েছে:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "সার্ভিস বন্ধ হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "সেটিংস সংরক্ষিত এবং প্রয়োগ করা হয়েছে"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "কিছু সেটিংস সংরক্ষণ বা প্রয়োগ করা হয়নি, অনুগ্রহ করে পরে আবার চেষ্টা করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "সার্ভিস শুরু করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr ""
+msgstr "সার্ভিস শুরু করা হচ্ছে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "অবস্থা"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "সার্ভিস বন্ধ করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "সার্ভিস বন্ধ করা হচ্ছে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr ""
+msgstr "পৃষ্ঠাটি 5 সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে রিফ্রেশ হবে..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr ""
+msgstr "কনফিগারেশন সেকশনের নাম নির্ধারণ করতে অক্ষম"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr ""
+msgstr "ডিভাইস আর্কিটেকচার নির্ধারণ করতে অক্ষম, অনুগ্রহ করে ম্যানুয়ালি ইনস্টল করুন"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr ""
+msgstr "NPing নোড প্রোগ্রাম ডাউনলোড বা ইনস্টল করতে অক্ষম"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -327,8 +331,4 @@ msgstr ""
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr ""
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr ""
+msgstr "অজানা"

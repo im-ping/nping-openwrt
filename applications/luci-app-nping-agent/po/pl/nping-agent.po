@@ -38,11 +38,11 @@ msgstr "Pobieranie nie powiodło się: Nie można pobrać programu węzła"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "Instalacja pobierania nie powiodła się:"
+msgstr "Instalacja pobrania nie powiodła się:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr "Pobieranie lub instalacja zakończone niepowodzeniem"
+msgstr "Pobieranie lub instalacja nie powiodły się"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
@@ -51,6 +51,10 @@ msgstr "Pobieranie i instalowanie..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "Pobieranie i instalowanie programu węzła NPing, proszę czekać..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Włącz"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -67,7 +71,7 @@ msgstr "Pobieranie nie powiodło się"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Przyznaj dostęp UCI i plikom dla luci-app-nping-agent"
+msgstr "Przyznaj dostęp UCI i do plików dla luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -88,7 +92,7 @@ msgstr "Wersja jądra"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Brak ID agenta, nie można uruchomić usługi"
+msgstr "Brak identyfikatora agenta, nie można uruchomić usługi"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -99,7 +103,7 @@ msgstr "Węzeł NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Program węzła NPing nie istnieje, najpierw zainstaluj"
+msgstr "Program węzła NPing nie istnieje, proszę najpierw go zainstalować"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -107,8 +111,7 @@ msgstr "Program węzła NPing został pomyślnie zainstalowany"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
-"Program węzła NPing nie jest zarejestrowany, proszę dokończyć rejestrację"
+msgstr "Program węzła NPing nie jest zarejestrowany, proszę dokończyć rejestrację"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -121,7 +124,7 @@ msgstr "Nazwa węzła"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr "Nie uruchomione"
+msgstr "Nie działa"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
@@ -129,7 +132,7 @@ msgstr "Operacja"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
-msgstr "Błąd parametru: Nieprawidłowy ID agenta"
+msgstr "Błąd parametru: Nieprawidłowy identyfikator agenta"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
 msgid "Parameter error: Invalid architecture or path"
@@ -137,27 +140,27 @@ msgstr "Błąd parametru: Nieprawidłowa architektura lub ścieżka"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Błąd parametru: Sprawdź klucz rejestracyjny i nazwę węzła"
+msgstr "Błąd parametru: Proszę sprawdzić klucz rejestracyjny i nazwę węzła"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "Błąd uprawnień: Nie można ustawić uprawnień wykonywania"
+msgstr "Błąd uprawnień: Nie można ustawić uprawnień wykonawczych"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr "Wprowadź prawidłową nazwę węzła"
+msgstr "Proszę wprowadzić prawidłową nazwę węzła"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr "Wprowadź prawidłowy klucz rejestracyjny"
+msgstr "Proszę wprowadzić prawidłowy klucz rejestracyjny"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr "Wprowadź nazwę węzła"
+msgstr "Proszę wprowadzić nazwę węzła"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr "Wprowadź klucz rejestracyjny"
+msgstr "Proszę wprowadzić klucz rejestracyjny"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
@@ -178,7 +181,7 @@ msgstr "Zarejestruj urządzenie"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr "Zarejestrowane"
+msgstr "Zarejestrowano"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
@@ -208,7 +211,7 @@ msgstr "Rejestracja nie powiodła się: Nie można odczytać danych odpowiedzi"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr "Rejestracja nie powiodła się: Serwer odrzucił żądanie"
+msgstr "Rejestracja nie powiodła się: Serwer odmówił żądania"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
@@ -220,11 +223,11 @@ msgstr "Żądanie rejestracji nie powiodło się"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Analiza odpowiedzi rejestracji nie powiodła się"
+msgstr "Parsowanie odpowiedzi rejestracji nie powiodło się"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
-msgstr "Uruchomione"
+msgstr "Działa"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
 msgid "Save Settings"
@@ -316,7 +319,7 @@ msgstr "Nie można określić nazwy sekcji konfiguracyjnej"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "Nie można określić architektury urządzenia, zainstaluj ręcznie"
+msgstr "Nie można określić architektury urządzenia, proszę zainstalować ręcznie"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -330,23 +333,4 @@ msgstr "Nie można pobrać lub zainstalować programu węzła NPing"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr "Nieznane"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Automatyczne uruchamianie przy starcie systemu"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "Uruchom usługę NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "Zatrzymaj usługę NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "Pomyślnie zatrzymano usługę NPing"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Pomyślnie zaktualizowano konfigurację i uruchomiono ponownie usługę"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Aktualizuj ustawienia i uruchom ponownie"
+msgstr "Nieznany"

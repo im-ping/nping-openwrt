@@ -11,13 +11,11 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr "Überprüfe Servicestatus..."
+msgstr "Überprüfe Dienststatus..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr ""
-"Konfiguration konnte nicht geschrieben werden: Konfigurationsdatei kann "
-"nicht erstellt werden"
+msgstr "Konfigurationsschreibfehler: Konfigurationsdatei kann nicht erstellt werden"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -51,8 +49,11 @@ msgstr "Herunterladen und Installieren..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
-"NPing-Knotenprogramm wird heruntergeladen und installiert, bitte warten..."
+msgstr "NPing-Knotenprogramm wird heruntergeladen und installiert, bitte warten..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Aktivieren"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -69,7 +70,7 @@ msgstr "Abrufen fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Gewähre UCI- und Dateizugriff für luci-app-nping-agent"
+msgstr "UCI- und Dateizugriff für luci-app-nping-agent gewähren"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -81,9 +82,7 @@ msgstr "Installation abgeschlossen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
-"Installationsfehler: Datei kann nicht in das Systemverzeichnis verschoben "
-"werden"
+msgstr "Installationsfehler: Datei kann nicht in Systemverzeichnis verschoben werden"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -92,7 +91,7 @@ msgstr "Kernel-Version"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Fehlende Agent-ID, Service kann nicht gestartet werden"
+msgstr "Fehlende Agent-ID, Dienst kann nicht gestartet werden"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -111,8 +110,7 @@ msgstr "NPing-Knotenprogramm wurde erfolgreich installiert"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
-"NPing-Knotenprogramm nicht registriert, bitte Registrierung abschließen"
+msgstr "NPing-Knotenprogramm nicht registriert, bitte Registrierung abschließen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -125,11 +123,11 @@ msgstr "Knotenname"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr "Nicht ausgeführt"
+msgstr "Nicht aktiv"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
-msgstr "Betrieb"
+msgstr "Operation"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
 msgid "Parameter error: Invalid Agent ID"
@@ -141,8 +139,7 @@ msgstr "Parameterfehler: Ungültige Architektur oder Pfad"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr ""
-"Parameterfehler: Bitte Registrierungsschlüssel und Knotennamen überprüfen"
+msgstr "Parameterfehler: Bitte Registrierungsschlüssel und Knotennamen überprüfen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
@@ -171,7 +168,7 @@ msgstr "Bitte warten..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Vorbereitung zur Registrierung, bitte warten..."
+msgstr "Registrierung wird vorbereitet, bitte warten..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -192,7 +189,7 @@ msgstr "NPing-Knoten wird registriert, bitte warten..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
 msgid "Registering..."
-msgstr "Registriere..."
+msgstr "Registrierung läuft..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
 msgid "Registration Key"
@@ -225,7 +222,7 @@ msgstr "Registrierungsanfrage fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Verarbeitung der Registrierungsantwort fehlgeschlagen"
+msgstr "Analyse der Registrierungsantwort fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -237,47 +234,47 @@ msgstr "Einstellungen speichern"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr "Servicebetrieb"
+msgstr "Dienstoperation"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr "Servicestatus"
+msgstr "Dienststatus"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Ausführung des Servicestarts fehlgeschlagen"
+msgstr "Ausführung des Dienststartes fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr "Servicestart fehlgeschlagen"
+msgstr "Dienststarten fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr "Servicestart fehlgeschlagen:"
+msgstr "Dienststarten fehlgeschlagen:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr "Servicestart fehlgeschlagen: Service kann nicht gestartet werden"
+msgstr "Dienststarten fehlgeschlagen: Dienst kann nicht gestartet werden"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr "Service gestartet"
+msgstr "Dienst gestartet"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr "Überprüfung des Servicestatus fehlgeschlagen"
+msgstr "Überprüfung des Dienststatus fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr "Ausführung des Servicestopps fehlgeschlagen"
+msgstr "Ausführung des Dienststopps fehlgeschlagen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr "Servicestopp fehlgeschlagen:"
+msgstr "Dienststoppen fehlgeschlagen:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr "Service gestoppt"
+msgstr "Dienst gestoppt"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
@@ -290,11 +287,11 @@ msgstr "Einige Einstellungen wurden nicht gespeichert oder angewendet, bitte ver
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr "Service starten"
+msgstr "Dienst starten"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr "Service wird gestartet..."
+msgstr "Dienst wird gestartet..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
@@ -303,11 +300,11 @@ msgstr "Status"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr "Service stoppen"
+msgstr "Dienst stoppen"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr "Service wird gestoppt..."
+msgstr "Dienst wird gestoppt..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
@@ -316,12 +313,12 @@ msgstr "Die Seite wird in 5 Sekunden automatisch aktualisiert..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "Name des Konfigurationsabschnitts kann nicht ermittelt werden"
+msgstr "Konfigurationsabschnittsname kann nicht bestimmt werden"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "Gerätearchitektur kann nicht ermittelt werden, bitte manuell installieren"
+msgstr "Gerätearchitektur kann nicht bestimmt werden, bitte manuell installieren"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -336,22 +333,3 @@ msgstr "NPing-Knotenprogramm kann nicht heruntergeladen oder installiert werden"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Unbekannt"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Automatisch beim Booten starten"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "NPing-Service starten"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "NPing-Service stoppen"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "NPing-Service erfolgreich gestoppt"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Konfiguration erfolgreich aktualisiert und Service neu gestartet"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Einstellungen aktualisieren und neu starten"

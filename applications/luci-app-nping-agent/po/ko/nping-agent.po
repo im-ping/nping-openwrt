@@ -51,6 +51,10 @@ msgstr "다운로드 및 설치 중..."
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "NPing 노드 프로그램 다운로드 및 설치 중, 기다려 주세요..."
 
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "활성화"
+
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
 msgstr "파일이 존재하지 않습니다"
@@ -168,7 +172,7 @@ msgstr "등록 준비 중, 기다려 주세요..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
-msgstr "지금 새로고침"
+msgstr "지금 새로 고침"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
@@ -218,7 +222,7 @@ msgstr "등록 요청 실패"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "등록 응답 파싱 실패"
+msgstr "등록 응답 구문 분석 실패"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -274,7 +278,7 @@ msgstr "서비스 중지됨"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr "설정이 저장되고 적용되었습니다"
+msgstr "설정이 저장되고 적용됨"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
@@ -304,7 +308,7 @@ msgstr "서비스 중지 중..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "페이지가 5초 후에 자동으로 새로고침됩니다..."
+msgstr "페이지가 5초 후에 자동으로 새로 고쳐집니다..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
@@ -329,22 +333,3 @@ msgstr "NPing 노드 프로그램을 다운로드하거나 설치할 수 없습�
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "알 수 없음"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "부팅 시 자동 시작"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "NPing 서비스 시작"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "NPing 서비스 중지"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "NPing 서비스가 성공적으로 중지되었습니다"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "구성을 성공적으로 업데이트하고 서비스를 다시 시작했습니다"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "설정 업데이트 및 재시작"

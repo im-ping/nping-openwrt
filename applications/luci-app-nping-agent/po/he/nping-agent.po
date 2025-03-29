@@ -11,11 +11,11 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr "בודק סטטוס שירות..."
+msgstr "בודק את מצב השירות..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr "כתיבת קונפיגורציה נכשלה: לא ניתן ליצור קובץ קונפיגורציה"
+msgstr "כתיבת תצורה נכשלה: לא ניתן ליצור קובץ תצורה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -49,7 +49,11 @@ msgstr "מוריד ומתקין..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "מוריד ומתקין את תוכנית צומת NPing, אנא המתן..."
+msgstr "מוריד ומתקין את תוכנית הצומת NPing, אנא המתן..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "הפעל"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -70,7 +74,7 @@ msgstr "הענק גישת UCI וקובץ עבור luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr "התקן תוכנית צומת NPing"
+msgstr "התקן את תוכנית הצומת NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
@@ -83,11 +87,11 @@ msgstr "שגיאת התקנה: לא ניתן להעביר קובץ לספריי�
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
 msgid "Kernel Version"
-msgstr "גרסת הקרנל"
+msgstr "גרסת הליבה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "חסר מזהה סוכן, לא ניתן להפעיל את השירות"
+msgstr "מזהה סוכן חסר, לא ניתן להפעיל את השירות"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -98,15 +102,15 @@ msgstr "צומת NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "תוכנית צומת NPing אינה קיימת, אנא התקן תחילה"
+msgstr "תוכנית הצומת NPing אינה קיימת, אנא התקן תחילה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
-msgstr "תוכנית צומת NPing הותקנה בהצלחה"
+msgstr "תוכנית הצומת NPing הותקנה בהצלחה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "תוכנית צומת NPing לא רשומה, אנא השלם את הרישום"
+msgstr "תוכנית הצומת NPing לא רשומה, אנא השלם את הרישום"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -139,7 +143,7 @@ msgstr "שגיאת פרמטר: אנא בדוק את מפתח הרישום ושם
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "שגיאת הרשאה: לא ניתן להגדיר הרשאת הרצה"
+msgstr "שגיאת הרשאה: לא ניתן להגדיר הרשאת הפעלה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
@@ -168,7 +172,7 @@ msgstr "מתכונן לרישום, אנא המתן..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
-msgstr "רענן עכשיו"
+msgstr "רענן כעת"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
 msgid "Register Device"
@@ -193,7 +197,7 @@ msgstr "מפתח רישום"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
 msgid "Registration Status"
-msgstr "סטטוס רישום"
+msgstr "סטטוס הרישום"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
@@ -234,7 +238,7 @@ msgstr "פעולת שירות"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr "סטטוס שירות"
+msgstr "סטטוס השירות"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
@@ -304,21 +308,21 @@ msgstr "עוצר שירות..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "הדף יתרענן אוטומטית תוך 5 שניות..."
+msgstr "הדף יתרענן אוטומטית בעוד 5 שניות..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "לא ניתן לקבוע את שם מקטע הקונפיגורציה"
+msgstr "לא ניתן לקבוע את שם מקטע התצורה"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "לא ניתן לקבוע את ארכיטקטורת המכשיר, אנא התקן ידנית"
+msgstr "לא ניתן לקבוע את ארכיטקטורת המכשיר, אנא התקן באופן ידני"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr "לא ניתן להוריד או להתקין את תוכנית צומת NPing"
+msgstr "לא ניתן להוריד או להתקין את תוכנית הצומת NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -329,22 +333,3 @@ msgstr "לא ניתן להוריד או להתקין את תוכנית צומת 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "לא ידוע"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "הפעלה אוטומטית בעת אתחול"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "הפעל שירות NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "עצור שירות NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "שירות NPing נעצר בהצלחה"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "הקונפיגורציה עודכנה והשירות הופעל מחדש בהצלחה"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "עדכן הגדרות והפעל מחדש"

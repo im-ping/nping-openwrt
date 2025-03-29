@@ -11,7 +11,7 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr "サービスステータスを確認中..."
+msgstr "サービス状態を確認中..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
@@ -37,7 +37,7 @@ msgstr "ダウンロード失敗：ノードプログラムを取得できませ
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "ダウンロードインストールに失敗しました："
+msgstr "ダウンロードインストール失敗："
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
@@ -49,9 +49,11 @@ msgstr "ダウンロードとインストール中..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
-"NPingノードプログラムをダウンロードしてインストールしています、お待ちくださ"
-"い..."
+msgstr "NPingノードプログラムをダウンロードしてインストール中です。お待ちください..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "有効化"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -68,11 +70,11 @@ msgstr "取得に失敗しました"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "luci-app-nping-agentにUCIとファイルアクセスを許可する"
+msgstr "luci-app-nping-agentにUCIとファイルアクセスを許可"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr "NPingノードプログラムをインストールする"
+msgstr "NPingノードプログラムをインストール"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
@@ -89,7 +91,7 @@ msgstr "カーネルバージョン"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "エージェントIDがないため、サービスを開始できません"
+msgstr "エージェントIDがありません。サービスを開始できません"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -100,7 +102,7 @@ msgstr "NPingノード"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "NPingノードプログラムが存在しません、先にインストールしてください"
+msgstr "NPingノードプログラムが存在しません。先にインストールしてください"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -108,12 +110,12 @@ msgstr "NPingノードプログラムが正常にインストールされまし�
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "NPingノードプログラムが登録されていません、登録を完了してください"
+msgstr "NPingノードプログラムが登録されていません。登録を完了してください"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
 msgid "No settings modified"
-msgstr "設定が変更されていません"
+msgstr "設定は変更されていません"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
 msgid "Node Name"
@@ -166,7 +168,7 @@ msgstr "お待ちください..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "登録の準備中です、お待ちください..."
+msgstr "登録の準備中です。お待ちください..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -182,7 +184,7 @@ msgstr "登録済み"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr "NPingノードを登録中です、お待ちください..."
+msgstr "NPingノードを登録中です。お待ちください..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
@@ -281,7 +283,7 @@ msgstr "設定が保存され適用されました"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr "一部の設定が保存または適用されていません、後ほど再試行してください"
+msgstr "一部の設定が保存または適用されていません。後でもう一度お試しください"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
@@ -306,17 +308,17 @@ msgstr "サービスを停止中..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
-msgstr "ページは5秒後に自動的に更新されます..."
+msgstr "このページは5秒後に自動的に更新されます..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "設定セクション名を特定できません"
+msgstr "構成セクション名を特定できません"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "デバイスのアーキテクチャを特定できません、手動でインストールしてください"
+msgstr "デバイスのアーキテクチャを特定できません。手動でインストールしてください"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -331,22 +333,3 @@ msgstr "NPingノードプログラムをダウンロードまたはインスト�
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "不明"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "起動時に自動的に開始"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "NPingサービスを開始"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "NPingサービスを停止"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "NPingサービスを正常に停止しました"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "設定を正常に更新し、サービスを再起動しました"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "設定を更新して再起動"

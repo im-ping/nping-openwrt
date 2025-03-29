@@ -12,7 +12,7 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr "Перевірка статусу служби..."
+msgstr "Перевірка стану служби..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
@@ -50,8 +50,11 @@ msgstr "Завантаження та встановлення..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr ""
-"Завантаження та встановлення програми вузла NPing, будь ласка, зачекайте..."
+msgstr "Завантаження та встановлення програми вузла NPing, будь ласка, зачекайте..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Увімкнути"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -68,7 +71,7 @@ msgstr "Помилка отримання"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Надайте доступ UCI та файлам для luci-app-nping-agent"
+msgstr "Надати доступ UCI та файловий доступ для luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -80,8 +83,7 @@ msgstr "Встановлення завершено"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr ""
-"Помилка встановлення: Неможливо перемістити файл до системного каталогу"
+msgstr "Помилка встановлення: Неможливо перемістити файл до системного каталогу"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -101,7 +103,7 @@ msgstr "Вузол NPing"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Програма вузла NPing не існує, спочатку встановіть її"
+msgstr "Програма вузла NPing не існує, будь ласка, спочатку встановіть"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -109,8 +111,7 @@ msgstr "Програма вузла NPing успішно встановлена"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr ""
-"Програма вузла NPing не зареєстрована, будь ласка, завершіть реєстрацію"
+msgstr "Програма вузла NPing не зареєстрована, будь ласка, завершіть реєстрацію"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -139,11 +140,11 @@ msgstr "Помилка параметра: Недійсна архітектур
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Помилка параметра: Перевірте ключ реєстрації та ім'я вузла"
+msgstr "Помилка параметра: Будь ласка, перевірте ключ реєстрації та ім'я вузла"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "Помилка прав доступу: Неможливо встановити права на виконання"
+msgstr "Помилка дозволу: Неможливо встановити дозвіл на виконання"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
@@ -210,15 +211,15 @@ msgstr "Помилка реєстрації: Неможливо прочитат
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
-msgstr "Помилка реєстрації: Сервер відхилив запит"
+msgstr "Помилка реєстрації: Сервер відмовив у запиті"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr "Помилка виконання запиту реєстрації"
+msgstr "Помилка виконання запиту на реєстрацію"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr "Помилка запиту реєстрації"
+msgstr "Помилка запиту на реєстрацію"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
@@ -242,7 +243,7 @@ msgstr "Статус служби"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Помилка виконання запуску служби"
+msgstr "Помилка запуску виконання служби"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
@@ -262,7 +263,7 @@ msgstr "Службу запущено"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr "Помилка перевірки статусу служби"
+msgstr "Помилка перевірки стану служби"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
@@ -283,7 +284,7 @@ msgstr "Налаштування збережено та застосовано"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr "Деякі налаштування не було збережено або застосовано, спробуйте пізніше"
+msgstr "Деякі налаштування не були збережені або застосовані, будь ласка, спробуйте пізніше"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
@@ -318,7 +319,7 @@ msgstr "Неможливо визначити назву розділу конф
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "Неможливо визначити архітектуру пристрою, встановіть вручну"
+msgstr "Неможливо визначити архітектуру пристрою, будь ласка, встановіть вручну"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
@@ -333,22 +334,3 @@ msgstr "Неможливо завантажити або встановити п
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Невідомо"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Автоматичний запуск при завантаженні"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "Запустити службу NPing"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "Зупинити службу NPing"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "Службу NPing успішно зупинено"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Конфігурацію успішно оновлено та службу перезапущено"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Оновити налаштування та перезапустити"

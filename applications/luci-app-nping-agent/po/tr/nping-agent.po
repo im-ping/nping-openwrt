@@ -11,7 +11,7 @@ msgstr ""
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
 msgid "Checking service status..."
-msgstr "Servis durumu kontrol ediliyor..."
+msgstr "Hizmet durumu kontrol ediliyor..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
@@ -21,7 +21,7 @@ msgstr "Yapılandırma yazma başarısız: Yapılandırma dosyası oluşturulam�
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr "Bu cihazda NPing düğüm servisini yapılandırın"
+msgstr "Bu cihazda NPing düğüm hizmetini yapılandırın"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
@@ -37,11 +37,11 @@ msgstr "İndirme başarısız: Düğüm programı alınamıyor"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "İndirme kurulumu başarısız oldu:"
+msgstr "İndirme kurulumu başarısız:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr "İndirme veya kurulum başarısız oldu"
+msgstr "İndirme veya kurulum başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
@@ -50,6 +50,10 @@ msgstr "İndiriliyor ve Kuruluyor..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
 msgstr "NPing düğüm programı indiriliyor ve kuruluyor, lütfen bekleyin..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Etkinleştir"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -62,11 +66,11 @@ msgstr "Genel Ayarlar"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
 msgid "Get failed"
-msgstr "Alma başarısız oldu"
+msgstr "Alma başarısız"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "luci-app-nping-agent için UCI ve dosya erişimi verin"
+msgstr "luci-app-nping-agent için UCI ve dosya erişimi ver"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
@@ -87,7 +91,7 @@ msgstr "Çekirdek Sürümü"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Ajan Kimliği eksik, servis başlatılamıyor"
+msgstr "Ajan Kimliği eksik, hizmet başlatılamıyor"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -202,7 +206,7 @@ msgstr "Kayıt başarısız:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr "Kayıt başarısız: Yanıt verileri okunamıyor"
+msgstr "Kayıt başarısız: Yanıt verisi okunamıyor"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
@@ -210,15 +214,15 @@ msgstr "Kayıt başarısız: Sunucu isteği reddetti"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr "Kayıt isteği yürütme başarısız oldu"
+msgstr "Kayıt isteği yürütmesi başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr "Kayıt isteği başarısız oldu"
+msgstr "Kayıt isteği başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Kayıt yanıtı ayrıştırma başarısız oldu"
+msgstr "Kayıt yanıtı ayrıştırma başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -230,77 +234,77 @@ msgstr "Ayarları Kaydet"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
 msgid "Service Operation"
-msgstr "Servis İşlemi"
+msgstr "Hizmet İşlemi"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
 msgid "Service Status"
-msgstr "Servis Durumu"
+msgstr "Hizmet Durumu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Servis başlatma yürütmesi başarısız oldu"
+msgstr "Hizmet başlatma yürütmesi başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
-msgstr "Servis başlatma başarısız oldu"
+msgstr "Hizmet başlatma başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
 msgid "Service start failed:"
-msgstr "Servis başlatma başarısız oldu:"
+msgstr "Hizmet başlatma başarısız:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr "Servis başlatma başarısız oldu: Servis başlatılamıyor"
+msgstr "Hizmet başlatma başarısız: Hizmet başlatılamıyor"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
-msgstr "Servis başlatıldı"
+msgstr "Hizmet başlatıldı"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "Hizmet durumu kontrolü başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "Hizmet durdurma yürütmesi başarısız"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "Hizmet durdurma başarısız:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "Hizmet durduruldu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "Ayarlar kaydedildi ve uygulandı"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "Bazı ayarlar kaydedilmedi veya uygulanmadı, lütfen daha sonra tekrar deneyin"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "Hizmeti Başlat"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
-msgstr "Servis başlatılıyor..."
+msgstr "Hizmet başlatılıyor..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "Hizmeti Durdur"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "Hizmet durduruluyor..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
@@ -328,23 +332,4 @@ msgstr "NPing düğüm programı indirilemiyor veya kurulamıyor"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
-msgstr "Bilinmiyor"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Başlangıçta otomatik başlat"
-
-#~ msgid "Start NPing Service"
-#~ msgstr "NPing Servisini Başlat"
-
-#~ msgid "Stop NPing Service"
-#~ msgstr "NPing Servisini Durdur"
-
-#~ msgid "Successfully stopped NPing service"
-#~ msgstr "NPing servisi başarıyla durduruldu"
-
-#~ msgid "Successfully updated configuration and restarted service"
-#~ msgstr "Yapılandırma başarıyla güncellendi ve servis yeniden başlatıldı"
-
-#~ msgid "Update Settings and Restart"
-#~ msgstr "Ayarları Güncelle ve Yeniden Başlat"
+msgstr "Bilinmeyen"

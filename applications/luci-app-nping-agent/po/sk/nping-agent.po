@@ -15,13 +15,13 @@ msgstr "Kontrola stavu služby..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
 msgid "Configuration write failed: Cannot create configuration file"
-msgstr "Zápis konfigurácie zlyhal: Nie je možné vytvoriť konfiguračný súbor"
+msgstr "Zápis konfigurácie zlyhal: Nemožno vytvoriť konfiguračný súbor"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
 msgid "Configure NPing node service on this device"
-msgstr "Konfigurácia služby NPing node na tomto zariadení"
+msgstr "Nastavenie služby NPing node na tomto zariadení"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
 msgid "Device Architecture"
@@ -33,15 +33,15 @@ msgstr "Zariadenie bolo úspešne zaregistrované"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
 msgid "Download failed: Cannot retrieve node program"
-msgstr "Sťahovanie zlyhalo: Nie je možné získať program node"
+msgstr "Stiahnutie zlyhalo: Nemožno získať program node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
 msgid "Download installation failed:"
-msgstr "Inštalácia sťahovania zlyhala:"
+msgstr "Inštalácia stiahnutia zlyhala:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
 msgid "Download or installation failed"
-msgstr "Sťahovanie alebo inštalácia zlyhali"
+msgstr "Stiahnutie alebo inštalácia zlyhala"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
 msgid "Downloading and Installing..."
@@ -49,7 +49,11 @@ msgstr "Sťahovanie a inštalácia..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
 msgid "Downloading and installing NPing node program, please wait..."
-msgstr "Sťahovanie a inštalácia programu NPing node, čakajte prosím..."
+msgstr "Sťahovanie a inštalácia programu NPing node, prosím čakajte..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "Enable"
+msgstr "Povoliť"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
 msgid "File does not exist"
@@ -66,11 +70,11 @@ msgstr "Získanie zlyhalo"
 
 #: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
 msgid "Grant UCI and file access for luci-app-nping-agent"
-msgstr "Udeliť prístup k UCI a súborom pre luci-app-nping-agent"
+msgstr "Udeliť prístup UCI a súboru pre luci-app-nping-agent"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
 msgid "Install NPing node program"
-msgstr "Inštalácia programu NPing node"
+msgstr "Inštalovať program NPing node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
 msgid "Installation Complete"
@@ -78,7 +82,7 @@ msgstr "Inštalácia dokončená"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
 msgid "Installation error: Cannot move file to system directory"
-msgstr "Chyba inštalácie: Nie je možné presunúť súbor do systémového adresára"
+msgstr "Chyba inštalácie: Nemožno presunúť súbor do systémového adresára"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
@@ -87,7 +91,7 @@ msgstr "Verzia jadra"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
 msgid "Missing Agent ID, cannot start service"
-msgstr "Chýba ID agenta, nie je možné spustiť službu"
+msgstr "Chýbajúce ID agenta, nemožno spustiť službu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
@@ -98,7 +102,7 @@ msgstr "NPing Node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
 msgid "NPing node program does not exist, please install first"
-msgstr "Program NPing node neexistuje, najprv ho nainštalujte"
+msgstr "Program NPing node neexistuje, prosím, najprv ho nainštalujte"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
 msgid "NPing node program has been successfully installed"
@@ -106,7 +110,7 @@ msgstr "Program NPing node bol úspešne nainštalovaný"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
 msgid "NPing node program not registered, please complete registration"
-msgstr "Program NPing node nie je zaregistrovaný, dokončite registráciu"
+msgstr "Program NPing node nie je zaregistrovaný, prosím, dokončite registráciu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
@@ -119,7 +123,7 @@ msgstr "Názov uzla"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
 msgid "Not running"
-msgstr "Nespustené"
+msgstr "Nie je spustený"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
 msgid "Operation"
@@ -135,36 +139,36 @@ msgstr "Chyba parametra: Neplatná architektúra alebo cesta"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
 msgid "Parameter error: Please check registration key and node name"
-msgstr "Chyba parametra: Skontrolujte registračný kľúč a názov uzla"
+msgstr "Chyba parametra: Prosím, skontrolujte registračný kľúč a názov uzla"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
 msgid "Permission error: Cannot set execution permission"
-msgstr "Chyba oprávnenia: Nie je možné nastaviť oprávnenie na spustenie"
+msgstr "Chyba oprávnenia: Nemožno nastaviť oprávnenie na spustenie"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
 msgid "Please enter a valid node name"
-msgstr "Zadajte platný názov uzla"
+msgstr "Prosím, zadajte platný názov uzla"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
 msgid "Please enter a valid registration key"
-msgstr "Zadajte platný registračný kľúč"
+msgstr "Prosím, zadajte platný registračný kľúč"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
 msgid "Please enter node name"
-msgstr "Zadajte názov uzla"
+msgstr "Prosím, zadajte názov uzla"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
 msgid "Please enter registration key"
-msgstr "Zadajte registračný kľúč"
+msgstr "Prosím, zadajte registračný kľúč"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
 msgid "Please wait..."
-msgstr "Čakajte prosím..."
+msgstr "Prosím, čakajte..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
 msgid "Preparing to register, please wait..."
-msgstr "Príprava na registráciu, čakajte prosím..."
+msgstr "Príprava na registráciu, prosím, čakajte..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
 msgid "Refresh Now"
@@ -176,11 +180,11 @@ msgstr "Registrovať zariadenie"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
 msgid "Registered"
-msgstr "Zaregistrované"
+msgstr "Registrované"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
 msgid "Registering NPing node, please wait..."
-msgstr "Registrácia uzla NPing, čakajte prosím..."
+msgstr "Registrácia NPing node, prosím, čakajte..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
@@ -202,7 +206,7 @@ msgstr "Registrácia zlyhala:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
 msgid "Registration failed: Cannot read response data"
-msgstr "Registrácia zlyhala: Nie je možné načítať údaje odpovede"
+msgstr "Registrácia zlyhala: Nemožno čítať údaje odpovede"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
 msgid "Registration failed: Server refused request"
@@ -210,15 +214,15 @@ msgstr "Registrácia zlyhala: Server odmietol požiadavku"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
 msgid "Registration request execution failed"
-msgstr "Vykonanie požiadavky na registráciu zlyhalo"
+msgstr "Vykonanie žiadosti o registráciu zlyhalo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
 msgid "Registration request failed"
-msgstr "Požiadavka na registráciu zlyhala"
+msgstr "Žiadosť o registráciu zlyhala"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
 msgid "Registration response parsing failed"
-msgstr "Analýza odpovede na registráciu zlyhala"
+msgstr "Analýza odpovede registrácie zlyhala"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
 msgid "Running"
@@ -238,7 +242,7 @@ msgstr "Stav služby"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
 msgid "Service start execution failed"
-msgstr "Spustenie služby zlyhalo"
+msgstr "Vykonanie spustenia služby zlyhalo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
 msgid "Service start failed"
@@ -250,7 +254,7 @@ msgstr "Spustenie služby zlyhalo:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
 msgid "Service start failed: Cannot start service"
-msgstr "Spustenie služby zlyhalo: Nie je možné spustiť službu"
+msgstr "Spustenie služby zlyhalo: Nemožno spustiť službu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
 msgid "Service started"
@@ -258,32 +262,32 @@ msgstr "Služba spustená"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
 msgid "Service status check failed"
-msgstr ""
+msgstr "Kontrola stavu služby zlyhala"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
 msgid "Service stop execution failed"
-msgstr ""
+msgstr "Vykonanie zastavenia služby zlyhalo"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
 msgid "Service stop failed:"
-msgstr ""
+msgstr "Zastavenie služby zlyhalo:"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
 msgid "Service stopped"
-msgstr ""
+msgstr "Služba zastavená"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
 msgid "Settings saved and applied"
-msgstr ""
+msgstr "Nastavenia uložené a aplikované"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
 msgid "Some settings have not been saved or applied, please try again later"
-msgstr ""
+msgstr "Niektoré nastavenia neboli uložené alebo aplikované, prosím, skúste to znova neskôr"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Start Service"
-msgstr ""
+msgstr "Spustiť službu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Starting service..."
@@ -292,15 +296,15 @@ msgstr "Spúšťanie služby..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
 msgid "Stop Service"
-msgstr ""
+msgstr "Zastaviť službu"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
 msgid "Stopping service..."
-msgstr ""
+msgstr "Zastavovanie služby..."
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
 msgid "The page will automatically refresh in 5 seconds..."
@@ -309,16 +313,16 @@ msgstr "Stránka sa automaticky obnoví za 5 sekúnd..."
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
 msgid "Unable to determine configuration section name"
-msgstr "Nie je možné určiť názov konfiguračnej sekcie"
+msgstr "Nemožno určiť názov konfiguračnej sekcie"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
 msgid "Unable to determine device architecture, please install manually"
-msgstr "Nie je možné určiť architektúru zariadenia, nainštalujte manuálne"
+msgstr "Nemožno určiť architektúru zariadenia, prosím, nainštalujte manuálne"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
 msgid "Unable to download or install NPing node program"
-msgstr "Nie je možné stiahnuť alebo nainštalovať program NPing node"
+msgstr "Nemožno stiahnuť alebo nainštalovať program NPing node"
 
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
@@ -329,7 +333,3 @@ msgstr "Nie je možné stiahnuť alebo nainštalovať program NPing node"
 #: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
 msgid "Unknown"
 msgstr "Neznáme"
-
-#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
-msgid "开机自动启动"
-msgstr "Automatické spustenie pri štarte"
