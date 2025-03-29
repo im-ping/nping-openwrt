@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
+msgid "Checking service status..."
+msgstr "Проверка статуса службы..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
+msgid "Configuration write failed: Cannot create configuration file"
+msgstr "Ошибка записи конфигурации: Невозможно создать файл конфигурации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+msgid "Configure NPing node service on this device"
+msgstr "Настроить службу узла NPing на этом устройстве"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
+msgid "Device Architecture"
+msgstr "Архитектура устройства"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
+msgid "Device registered successfully"
+msgstr "Устройство успешно зарегистрировано"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
+msgid "Download failed: Cannot retrieve node program"
+msgstr "Ошибка загрузки: Невозможно получить программу узла"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
+msgid "Download installation failed:"
+msgstr "Установка загрузки не удалась:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
+msgid "Download or installation failed"
+msgstr "Ошибка загрузки или установки"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
+msgid "Downloading and Installing..."
+msgstr "Загрузка и установка..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
+msgid "Downloading and installing NPing node program, please wait..."
+msgstr "Загрузка и установка программы узла NPing, пожалуйста, подождите..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
+msgid "File does not exist"
+msgstr "Файл не существует"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
+msgid "Get failed"
+msgstr "Получение не удалось"
+
+#: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
+msgid "Grant UCI and file access for luci-app-nping-agent"
+msgstr "Предоставить доступ UCI и файлы для luci-app-nping-agent"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
+msgid "Install NPing node program"
+msgstr "Установить программу узла NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
+msgid "Installation Complete"
+msgstr "Установка завершена"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
+msgid "Installation error: Cannot move file to system directory"
+msgstr "Ошибка установки: Невозможно переместить файл в системный каталог"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
+msgid "Kernel Version"
+msgstr "Версия ядра"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
+msgid "Missing Agent ID, cannot start service"
+msgstr "Отсутствует ID агента, невозможно запустить службу"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+#: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
+msgid "NPing Node"
+msgstr "Узел NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
+msgid "NPing node program does not exist, please install first"
+msgstr "Программа узла NPing не существует, пожалуйста, сначала установите"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
+msgid "NPing node program has been successfully installed"
+msgstr "Программа узла NPing успешно установлена"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
+msgid "NPing node program not registered, please complete registration"
+msgstr ""
+"Программа узла NPing не зарегистрирована, пожалуйста, завершите регистрацию"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
+msgid "No settings modified"
+msgstr "Настройки не изменены"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
+msgid "Node Name"
+msgstr "Имя узла"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
+msgid "Not running"
+msgstr "Не запущено"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
+msgid "Operation"
+msgstr "Операция"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
+msgid "Parameter error: Invalid Agent ID"
+msgstr "Ошибка параметра: Недействительный ID агента"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
+msgid "Parameter error: Invalid architecture or path"
+msgstr "Ошибка параметра: Недействительная архитектура или путь"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
+msgid "Parameter error: Please check registration key and node name"
+msgstr "Ошибка параметра: Проверьте ключ регистрации и имя узла"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
+msgid "Permission error: Cannot set execution permission"
+msgstr "Ошибка разрешений: Невозможно установить разрешение на выполнение"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
+msgid "Please enter a valid node name"
+msgstr "Пожалуйста, введите действительное имя узла"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
+msgid "Please enter a valid registration key"
+msgstr "Пожалуйста, введите действительный ключ регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
+msgid "Please enter node name"
+msgstr "Пожалуйста, введите имя узла"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
+msgid "Please enter registration key"
+msgstr "Пожалуйста, введите ключ регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
+msgid "Preparing to register, please wait..."
+msgstr "Подготовка к регистрации, пожалуйста, подождите..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
+msgid "Refresh Now"
+msgstr "Обновить сейчас"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
+msgid "Register Device"
+msgstr "Зарегистрировать устройство"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
+msgid "Registered"
+msgstr "Зарегистрировано"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
+msgid "Registering NPing node, please wait..."
+msgstr "Регистрация узла NPing, пожалуйста, подождите..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
+msgid "Registering..."
+msgstr "Регистрация..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
+msgid "Registration Key"
+msgstr "Ключ регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
+msgid "Registration Status"
+msgstr "Статус регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
+msgid "Registration failed:"
+msgstr "Регистрация не удалась:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
+msgid "Registration failed: Cannot read response data"
+msgstr "Регистрация не удалась: Невозможно прочитать данные ответа"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
+msgid "Registration failed: Server refused request"
+msgstr "Регистрация не удалась: Сервер отклонил запрос"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
+msgid "Registration request execution failed"
+msgstr "Ошибка выполнения запроса регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
+msgid "Registration request failed"
+msgstr "Запрос на регистрацию не удался"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
+msgid "Registration response parsing failed"
+msgstr "Ошибка анализа ответа регистрации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
+msgid "Running"
+msgstr "Работает"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
+msgid "Service Operation"
+msgstr "Операция службы"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
+msgid "Service Status"
+msgstr "Статус службы"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
+msgid "Service start execution failed"
+msgstr "Ошибка выполнения запуска службы"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
+msgid "Service start failed"
+msgstr "Запуск службы не удался"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
+msgid "Service start failed:"
+msgstr "Запуск службы не удался:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
+msgid "Service start failed: Cannot start service"
+msgstr "Запуск службы не удался: Невозможно запустить службу"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
+msgid "Service started"
+msgstr "Служба запущена"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
+msgid "Service status check failed"
+msgstr "Ошибка проверки статуса службы"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
+msgid "Service stop execution failed"
+msgstr "Ошибка выполнения остановки службы"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
+msgid "Service stop failed:"
+msgstr "Остановка службы не удалась:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
+msgid "Service stopped"
+msgstr "Служба остановлена"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
+msgid "Settings saved and applied"
+msgstr "Настройки сохранены и применены"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
+msgid "Some settings have not been saved or applied, please try again later"
+msgstr "Некоторые настройки не были сохранены или применены, пожалуйста, повторите попытку позже"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Start Service"
+msgstr "Запустить службу"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Starting service..."
+msgstr "Запуск службы..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
+msgid "Status"
+msgstr "Статус"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Stop Service"
+msgstr "Остановить службу"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Stopping service..."
+msgstr "Остановка службы..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
+msgid "The page will automatically refresh in 5 seconds..."
+msgstr "Страница автоматически обновится через 5 секунд..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
+msgid "Unable to determine configuration section name"
+msgstr "Невозможно определить имя раздела конфигурации"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
+msgid "Unable to determine device architecture, please install manually"
+msgstr "Невозможно определить архитектуру устройства, пожалуйста, установите вручную"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
+msgid "Unable to download or install NPing node program"
+msgstr "Невозможно загрузить или установить программу узла NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:82
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:180
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:228
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "开机自动启动"
+msgstr "Автозапуск при загрузке"
+
+#~ msgid "Start NPing Service"
+#~ msgstr "Запустить службу NPing"
+
+#~ msgid "Stop NPing Service"
+#~ msgstr "Остановить службу NPing"
+
+#~ msgid "Successfully stopped NPing service"
+#~ msgstr "Служба NPing успешно остановлена"
+
+#~ msgid "Successfully updated configuration and restarted service"
+#~ msgstr "Конфигурация успешно обновлена и служба перезапущена"
+
+#~ msgid "Update Settings and Restart"
+#~ msgstr "Обновить настройки и перезапустить"

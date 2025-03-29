@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
+msgid "Checking service status..."
+msgstr "Szolgáltatás állapotának ellenőrzése..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
+msgid "Configuration write failed: Cannot create configuration file"
+msgstr ""
+"Konfigurációs írás sikertelen: Nem lehet létrehozni a konfigurációs fájlt"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+msgid "Configure NPing node service on this device"
+msgstr "NPing csomópont szolgáltatás konfigurálása ezen az eszközön"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
+msgid "Device Architecture"
+msgstr "Eszköz architektúra"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
+msgid "Device registered successfully"
+msgstr "Az eszköz sikeresen regisztrálva"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
+msgid "Download failed: Cannot retrieve node program"
+msgstr "Letöltés sikertelen: Nem lehet letölteni a csomópont programot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
+msgid "Download installation failed:"
+msgstr "Letöltés telepítése sikertelen:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
+msgid "Download or installation failed"
+msgstr "Letöltés vagy telepítés sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
+msgid "Downloading and Installing..."
+msgstr "Letöltés és telepítés..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
+msgid "Downloading and installing NPing node program, please wait..."
+msgstr "NPing csomópont program letöltése és telepítése, kérjük várjon..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
+msgid "File does not exist"
+msgstr "A fájl nem létezik"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
+msgid "General Settings"
+msgstr "Általános beállítások"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
+msgid "Get failed"
+msgstr "Lekérés sikertelen"
+
+#: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
+msgid "Grant UCI and file access for luci-app-nping-agent"
+msgstr "UCI és fájl hozzáférés biztosítása a luci-app-nping-agent számára"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
+msgid "Install NPing node program"
+msgstr "NPing csomópont program telepítése"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
+msgid "Installation Complete"
+msgstr "Telepítés befejezve"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
+msgid "Installation error: Cannot move file to system directory"
+msgstr "Telepítési hiba: Nem lehet áthelyezni a fájlt a rendszerkönyvtárba"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
+msgid "Kernel Version"
+msgstr "Kernel verzió"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
+msgid "Missing Agent ID, cannot start service"
+msgstr "Hiányzó ügynök azonosító, nem lehet elindítani a szolgáltatást"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+#: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
+msgid "NPing Node"
+msgstr "NPing csomópont"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
+msgid "NPing node program does not exist, please install first"
+msgstr "NPing csomópont program nem létezik, kérjük először telepítse"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
+msgid "NPing node program has been successfully installed"
+msgstr "NPing csomópont program sikeresen telepítve"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
+msgid "NPing node program not registered, please complete registration"
+msgstr ""
+"NPing csomópont program nincs regisztrálva, kérjük fejezze be a regisztrációt"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
+msgid "No settings modified"
+msgstr "Nincs módosított beállítás"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
+msgid "Node Name"
+msgstr "Csomópont neve"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
+msgid "Not running"
+msgstr "Nem fut"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
+msgid "Operation"
+msgstr "Művelet"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
+msgid "Parameter error: Invalid Agent ID"
+msgstr "Paraméter hiba: Érvénytelen ügynök azonosító"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
+msgid "Parameter error: Invalid architecture or path"
+msgstr "Paraméter hiba: Érvénytelen architektúra vagy útvonal"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
+msgid "Parameter error: Please check registration key and node name"
+msgstr ""
+"Paraméter hiba: Kérjük ellenőrizze a regisztrációs kulcsot és a csomópont "
+"nevét"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
+msgid "Permission error: Cannot set execution permission"
+msgstr "Jogosultság hiba: Nem lehet beállítani a végrehajtási jogosultságot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
+msgid "Please enter a valid node name"
+msgstr "Kérjük adjon meg egy érvényes csomópont nevet"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
+msgid "Please enter a valid registration key"
+msgstr "Kérjük adjon meg egy érvényes regisztrációs kulcsot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
+msgid "Please enter node name"
+msgstr "Kérjük adja meg a csomópont nevét"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
+msgid "Please enter registration key"
+msgstr "Kérjük adja meg a regisztrációs kulcsot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
+msgid "Please wait..."
+msgstr "Kérjük várjon..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
+msgid "Preparing to register, please wait..."
+msgstr "Regisztrációra felkészülés, kérjük várjon..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
+msgid "Refresh Now"
+msgstr "Frissítés most"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
+msgid "Register Device"
+msgstr "Eszköz regisztrálása"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
+msgid "Registered"
+msgstr "Regisztrálva"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
+msgid "Registering NPing node, please wait..."
+msgstr "NPing csomópont regisztrálása, kérjük várjon..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
+msgid "Registering..."
+msgstr "Regisztrálás..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
+msgid "Registration Key"
+msgstr "Regisztrációs kulcs"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
+msgid "Registration Status"
+msgstr "Regisztrációs állapot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
+msgid "Registration failed:"
+msgstr "Regisztráció sikertelen:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
+msgid "Registration failed: Cannot read response data"
+msgstr "Regisztráció sikertelen: Nem lehet olvasni a válaszadatokat"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
+msgid "Registration failed: Server refused request"
+msgstr "Regisztráció sikertelen: A szerver elutasította a kérést"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
+msgid "Registration request execution failed"
+msgstr "Regisztrációs kérés végrehajtása sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
+msgid "Registration request failed"
+msgstr "Regisztrációs kérés sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
+msgid "Registration response parsing failed"
+msgstr "Regisztrációs válasz feldolgozása sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
+msgid "Running"
+msgstr "Fut"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
+msgid "Service Operation"
+msgstr "Szolgáltatás művelet"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
+msgid "Service Status"
+msgstr "Szolgáltatás állapota"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
+msgid "Service start execution failed"
+msgstr "Szolgáltatás indítása végrehajtása sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
+msgid "Service start failed"
+msgstr "Szolgáltatás indítása sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
+msgid "Service start failed:"
+msgstr "Szolgáltatás indítása sikertelen:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
+msgid "Service start failed: Cannot start service"
+msgstr "Szolgáltatás indítása sikertelen: Nem lehet elindítani a szolgáltatást"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
+msgid "Service started"
+msgstr "Szolgáltatás elindítva"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
+msgid "Service status check failed"
+msgstr "Szolgáltatás állapot ellenőrzése sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
+msgid "Service stop execution failed"
+msgstr "Szolgáltatás leállítása végrehajtása sikertelen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
+msgid "Service stop failed:"
+msgstr "Szolgáltatás leállítása sikertelen:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
+msgid "Service stopped"
+msgstr "Szolgáltatás leállítva"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
+msgid "Settings saved and applied"
+msgstr "Beállítások mentve és alkalmazva"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
+msgid "Some settings have not been saved or applied, please try again later"
+msgstr "Néhány beállítás nem került mentésre vagy alkalmazásra, kérjük próbálja újra később"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Start Service"
+msgstr "Szolgáltatás indítása"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Starting service..."
+msgstr "Szolgáltatás indítása..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
+msgid "Status"
+msgstr "Állapot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Stop Service"
+msgstr "Szolgáltatás leállítása"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Stopping service..."
+msgstr "Szolgáltatás leállítása..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
+msgid "The page will automatically refresh in 5 seconds..."
+msgstr "Az oldal automatikusan frissül 5 másodpercen belül..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
+msgid "Unable to determine configuration section name"
+msgstr "Nem lehet meghatározni a konfigurációs szakasz nevét"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
+msgid "Unable to determine device architecture, please install manually"
+msgstr ""
+"Nem lehet meghatározni az eszköz architektúráját, kérjük telepítsen "
+"manuálisan"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
+msgid "Unable to download or install NPing node program"
+msgstr "Nem lehet letölteni vagy telepíteni a NPing csomópont programot"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:82
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:180
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:228
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "开机自动启动"
+msgstr "Automatikus indítás rendszerindításkor"
+
+#~ msgid "Start NPing Service"
+#~ msgstr "NPing szolgáltatás indítása"
+
+#~ msgid "Stop NPing Service"
+#~ msgstr "NPing szolgáltatás leállítása"
+
+#~ msgid "Successfully stopped NPing service"
+#~ msgstr "NPing szolgáltatás sikeresen leállítva"
+
+#~ msgid "Successfully updated configuration and restarted service"
+#~ msgstr "Konfiguráció sikeresen frissítve és szolgáltatás újraindítva"
+
+#~ msgid "Update Settings and Restart"
+#~ msgstr "Beállítások frissítése és újraindítás"

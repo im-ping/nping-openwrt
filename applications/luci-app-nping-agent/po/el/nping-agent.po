@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:485
+msgid "Checking service status..."
+msgstr "Έλεγχος κατάστασης υπηρεσίας..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:551
+msgid "Configuration write failed: Cannot create configuration file"
+msgstr ""
+"Αποτυχία εγγραφής ρυθμίσεων: Δεν είναι δυνατή η δημιουργία αρχείου ρυθμίσεων"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:250
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+msgid "Configure NPing node service on this device"
+msgstr "Ρύθμιση υπηρεσίας κόμβου NPing σε αυτή τη συσκευή"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:260
+msgid "Device Architecture"
+msgstr "Αρχιτεκτονική Συσκευής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:412
+msgid "Device registered successfully"
+msgstr "Η συσκευή καταχωρήθηκε με επιτυχία"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:126
+msgid "Download failed: Cannot retrieve node program"
+msgstr "Αποτυχία λήψης: Δεν είναι δυνατή η ανάκτηση του προγράμματος κόμβου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:135
+msgid "Download installation failed:"
+msgstr "Αποτυχία εγκατάστασης λήψης:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:116
+msgid "Download or installation failed"
+msgstr "Αποτυχία λήψης ή εγκατάστασης"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:107
+msgid "Downloading and Installing..."
+msgstr "Λήψη και Εγκατάσταση..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:108
+msgid "Downloading and installing NPing node program, please wait..."
+msgstr "Λήψη και εγκατάσταση προγράμματος κόμβου NPing, παρακαλώ περιμένετε..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:191
+msgid "File does not exist"
+msgstr "Το αρχείο δεν υπάρχει"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:289
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:448
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:185
+msgid "Get failed"
+msgstr "Αποτυχία λήψης"
+
+#: applications/luci-app-nping-agent/root/usr/share/rpcd/acl.d/luci-app-nping-agent.json:3
+msgid "Grant UCI and file access for luci-app-nping-agent"
+msgstr "Παραχώρηση πρόσβασης UCI και αρχείων για το luci-app-nping-agent"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:270
+msgid "Install NPing node program"
+msgstr "Εγκατάσταση προγράμματος κόμβου NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:145
+msgid "Installation Complete"
+msgstr "Η Εγκατάσταση Ολοκληρώθηκε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:132
+msgid "Installation error: Cannot move file to system directory"
+msgstr ""
+"Σφάλμα εγκατάστασης: Δεν είναι δυνατή η μετακίνηση αρχείου στον κατάλογο "
+"συστήματος"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:298
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:455
+msgid "Kernel Version"
+msgstr "Έκδοση Πυρήνα"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:531
+msgid "Missing Agent ID, cannot start service"
+msgstr "Λείπει το ID Αντιπροσώπου, δεν είναι δυνατή η έναρξη της υπηρεσίας"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:249
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:282
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:441
+#: applications/luci-app-nping-agent/root/usr/share/luci/menu.d/luci-app-nping-agent.json:3
+msgid "NPing Node"
+msgstr "Κόμβος NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:256
+msgid "NPing node program does not exist, please install first"
+msgstr "Το πρόγραμμα κόμβου NPing δεν υπάρχει, παρακαλώ εγκαταστήστε το πρώτα"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:146
+msgid "NPing node program has been successfully installed"
+msgstr "Το πρόγραμμα κόμβου NPing έχει εγκατασταθεί με επιτυχία"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:294
+msgid "NPing node program not registered, please complete registration"
+msgstr ""
+"Το πρόγραμμα κόμβου NPing δεν έχει καταχωρηθεί, παρακαλώ ολοκληρώστε την "
+"εγγραφή"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:407
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:612
+msgid "No settings modified"
+msgstr "Δεν τροποποιήθηκαν ρυθμίσεις"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:309
+msgid "Node Name"
+msgstr "Όνομα Κόμβου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:472
+msgid "Not running"
+msgstr "Δεν εκτελείται"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:268
+msgid "Operation"
+msgstr "Λειτουργία"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:548
+msgid "Parameter error: Invalid Agent ID"
+msgstr "Σφάλμα παραμέτρου: Μη έγκυρο ID Αντιπροσώπου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:123
+msgid "Parameter error: Invalid architecture or path"
+msgstr "Σφάλμα παραμέτρου: Μη έγκυρη αρχιτεκτονική ή διαδρομή"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:367
+msgid "Parameter error: Please check registration key and node name"
+msgstr ""
+"Σφάλμα παραμέτρου: Παρακαλώ ελέγξτε το κλειδί εγγραφής και το όνομα κόμβου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:129
+msgid "Permission error: Cannot set execution permission"
+msgstr "Σφάλμα δικαιωμάτων: Δεν είναι δυνατός ο ορισμός δικαιώματος εκτέλεσης"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:337
+msgid "Please enter a valid node name"
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο όνομα κόμβου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:332
+msgid "Please enter a valid registration key"
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο κλειδί εγγραφής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:311
+msgid "Please enter node name"
+msgstr "Παρακαλώ εισάγετε όνομα κόμβου"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:306
+msgid "Please enter registration key"
+msgstr "Παρακαλώ εισάγετε κλειδί εγγραφής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:486
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:499
+msgid "Please wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:343
+msgid "Preparing to register, please wait..."
+msgstr "Προετοιμασία για εγγραφή, παρακαλώ περιμένετε..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:155
+msgid "Refresh Now"
+msgstr "Ανανέωση Τώρα"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:316
+msgid "Register Device"
+msgstr "Καταχώρηση Συσκευής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:463
+msgid "Registered"
+msgstr "Καταχωρημένο"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:351
+msgid "Registering NPing node, please wait..."
+msgstr "Καταχώρηση κόμβου NPing, παρακαλώ περιμένετε..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:342
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:350
+msgid "Registering..."
+msgstr "Καταχώρηση..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:304
+msgid "Registration Key"
+msgstr "Κλειδί Εγγραφής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:461
+msgid "Registration Status"
+msgstr "Κατάσταση Εγγραφής"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:376
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:421
+msgid "Registration failed:"
+msgstr "Η εγγραφή απέτυχε:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:373
+msgid "Registration failed: Cannot read response data"
+msgstr "Η εγγραφή απέτυχε: Δεν είναι δυνατή η ανάγνωση δεδομένων απόκρισης"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:370
+msgid "Registration failed: Server refused request"
+msgstr "Η εγγραφή απέτυχε: Ο διακομιστής απέρριψε το αίτημα"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:430
+msgid "Registration request execution failed"
+msgstr "Η εκτέλεση του αιτήματος εγγραφής απέτυχε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:360
+msgid "Registration request failed"
+msgstr "Το αίτημα εγγραφής απέτυχε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:425
+msgid "Registration response parsing failed"
+msgstr "Η ανάλυση της απόκρισης εγγραφής απέτυχε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:470
+msgid "Running"
+msgstr "Εκτελείται"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:590
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:477
+msgid "Service Operation"
+msgstr "Λειτουργία Υπηρεσίας"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:467
+msgid "Service Status"
+msgstr "Κατάσταση Υπηρεσίας"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:575
+msgid "Service start execution failed"
+msgstr "Η εκτέλεση έναρξης υπηρεσίας απέτυχε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:541
+msgid "Service start failed"
+msgstr "Η έναρξη υπηρεσίας απέτυχε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:557
+msgid "Service start failed:"
+msgstr "Η έναρξη υπηρεσίας απέτυχε:"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:554
+msgid "Service start failed: Cannot start service"
+msgstr "Η έναρξη υπηρεσίας απέτυχε: Δεν είναι δυνατή η έναρξη της υπηρεσίας"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:565
+msgid "Service started"
+msgstr "Η υπηρεσία ξεκίνησε"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:581
+msgid "Service status check failed"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:522
+msgid "Service stop execution failed"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:509
+msgid "Service stop failed:"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:513
+msgid "Service stopped"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:616
+msgid "Settings saved and applied"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:396
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:605
+msgid "Some settings have not been saved or applied, please try again later"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Start Service"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Starting service..."
+msgstr "Έναρξη υπηρεσίας..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:254
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:292
+msgid "Status"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:479
+msgid "Stop Service"
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:498
+msgid "Stopping service..."
+msgstr ""
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:147
+msgid "The page will automatically refresh in 5 seconds..."
+msgstr "Η σελίδα θα ανανεωθεί αυτόματα σε 5 δευτερόλεπτα..."
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:319
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:593
+msgid "Unable to determine configuration section name"
+msgstr "Δεν είναι δυνατός ο προσδιορισμός του ονόματος τμήματος ρυθμίσεων"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:95
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:100
+msgid "Unable to determine device architecture, please install manually"
+msgstr ""
+"Δεν είναι δυνατός ο προσδιορισμός της αρχιτεκτονικής της συσκευής, παρακαλώ "
+"εγκαταστήστε χειροκίνητα"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:168
+msgid "Unable to download or install NPing node program"
+msgstr "Δεν είναι δυνατή η λήψη ή η εγκατάσταση του προγράμματος κόμβου NPing"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:62
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:75
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:82
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:180
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:228
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:262
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:640
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: applications/luci-app-nping-agent/htdocs/luci-static/resources/view/nping-agent/manage.js:450
+msgid "开机自动启动"
+msgstr "Αυτόματη εκκίνηση κατά την εκκίνηση"
+
+#~ msgid "Start NPing Service"
+#~ msgstr "Έναρξη Υπηρεσίας NPing"
+
+#~ msgid "Stop NPing Service"
+#~ msgstr "Διακοπή Υπηρεσίας NPing"
+
+#~ msgid "Successfully stopped NPing service"
+#~ msgstr "Η υπηρεσία NPing διακόπηκε με επιτυχία"
+
+#~ msgid "Successfully updated configuration and restarted service"
+#~ msgstr "Οι ρυθμίσεις ενημερώθηκαν με επιτυχία και η υπηρεσία επανεκκινήθηκε"
+
+#~ msgid "Update Settings and Restart"
+#~ msgstr "Ενημέρωση Ρυθμίσεων και Επανεκκίνηση"

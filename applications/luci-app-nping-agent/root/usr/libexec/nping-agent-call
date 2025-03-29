@@ -1,0 +1,147 @@
+#!/bin/sh
+
+# NPing Agent Function Call Script
+# Provides functionalities: get architecture, download (including installation), register node and service control
+
+# Output error message and exit with error code
+error_exit() {
+    echo "ERROR_CODE: $1" >&2
+    exit 1
+}
+
+# Get system architecture and map to standardized name
+get_architecture() {
+    # Get raw architecture
+    RAW_ARCH=$(uname -m) || error_exit "ARCH_DETECTION_FAILED"
+
+    # Map architecture to standardized name
+    case "$RAW_ARCH" in
+        x86_64)
+            MAPPED_ARCH="amd64"
+            ;;
+        aarch64)
+            MAPPED_ARCH="arm64"
+            ;;
+        armv7*)
+            MAPPED_ARCH="arm"
+            ;;
+        armv6*)
+            MAPPED_ARCH="arm"
+            ;;
+        mips64el)
+            MAPPED_ARCH="mips64le"
+            ;;
+        mips64)
+            MAPPED_ARCH="mips64"
+            ;;
+        mipsel)
+            MAPPED_ARCH="mipsle"
+            ;;
+        mips)
+            MAPPED_ARCH="mips"
+            ;;
+        *)
+            MAPPED_ARCH="unknown"
+            ;;
+    esac
+
+    # Output result as JSON
+    echo "{\"raw\":\"$RAW_ARCH\",\"mapped\":\"$MAPPED_ARCH\"}"
+}
+
+# Download and install the NPing agent
+download_agent() {
+    # Check parameters
+    if [ $# -ne 2 ]; then
+        error_exit "PARAMETER_ERROR"
+    fi
+
+    ARCH="$1"
+    TARGET_PATH="$2"
+
+    # Download the file
+    curl -s -o "$TARGET_PATH" "https://nping.me/download/linux-agent-$ARCH" || error_exit "DOWNLOAD_FAILED"
+
+    # Set execute permissions
+    chmod 755 "$TARGET_PATH" || error_exit "PERMISSION_ERROR"
+
+    # Move file to system directory
+    mv "$TARGET_PATH" "/usr/bin/nping-agent" || error_exit "MOVE_FAILED"
+
+    # Return success
+    echo "SUCCESS"
+}
+
+# Register the node
+register_node() {
+    # Check parameters
+    if [ $# -ne 3 ]; then
+        error_exit "PARAMETER_ERROR"
+    fi
+
+    VENDOR_KEY="$1"
+    NAME="$2"
+    COUNTRY="$3"
+
+    # Create a temporary file
+    TMP_FILE="/tmp/nping_register_response.json"
+
+    # Send registration request
+    curl -s -X POST \
+      -d "vendor_key=$VENDOR_KEY" \
+      -d "name=$NAME" \
+      -d "country=$COUNTRY" \
+      -H "Content-Type: application/x-www-form-urlencoded" \
+      -o "$TMP_FILE" \
+      "https://nping.me/api/v1/modules/network_tests/nodes" || error_exit "REGISTRATION_FAILED"
+
+    # Output the temporary file content
+    cat "$TMP_FILE" || error_exit "FILE_READ_ERROR"
+
+    # Clean up temporary file
+    rm -f "$TMP_FILE"
+}
+
+# Create configuration file and start service
+start_service() {
+    # Check parameters
+    if [ $# -ne 1 ]; then
+        error_exit "PARAMETER_ERROR"
+    fi
+
+    AGENT_ID="$1"
+
+    # Store the agent_id in UCI config
+    # First ensure main section exists
+    uci -q get nping-agent.main >/dev/null || uci set nping-agent.main=main
+    uci set nping-agent.main.agent_id="$AGENT_ID"
+    uci set nping-agent.main.enabled="1"
+    uci commit nping-agent 2>/dev/null || error_exit "CONFIG_WRITE_ERROR"
+
+    # Start the service (which will create the config file)
+    /etc/init.d/nping-agent restart >/dev/null 2>&1 || error_exit "SERVICE_START_ERROR"
+
+    # Return success
+    echo "SUCCESS"
+}
+
+# Main function - parse command line arguments
+case "$1" in
+    architecture|arch)
+        get_architecture
+        ;;
+    download)
+        download_agent "$2" "$3"
+        ;;
+    register)
+        register_node "$2" "$3" "$4"
+        ;;
+    start)
+        start_service "$2"
+        ;;
+    *)
+        error_exit "INVALID_COMMAND"
+        ;;
+esac
+
+exit 0

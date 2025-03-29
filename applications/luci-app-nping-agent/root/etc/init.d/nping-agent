@@ -1,0 +1,75 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=50
+USE_PROCD=1
+PROG=/usr/bin/nping-agent
+
+# Get configuration directly
+get_config() {
+	config_get_bool enabled "$1" enabled 0
+	config_get agent_id "$1" agent_id
+}
+
+nping_instance() {
+	[ "$enabled" = "1" ] || {
+		return 1
+	}
+
+	[ -n "$agent_id" ] || {
+		return 1
+	}
+
+	# Create YAML config file
+	mkdir -p /tmp /etc/nping 2>/dev/null
+	CONFIG_FILE="/tmp/nping_agent.yaml"
+	echo "agent_id: $agent_id" > "$CONFIG_FILE"
+
+	procd_open_instance
+	procd_set_param command $PROG
+
+	# Use config file
+	procd_append_param command -config "$CONFIG_FILE"
+
+	procd_set_param stdout 1
+	procd_set_param stderr 1
+	procd_set_param respawn
+	procd_close_instance
+}
+
+start_service() {
+	# Reset configuration variables
+	enabled=0
+	agent_id=""
+
+	# Load configuration
+	config_load nping-agent
+
+	# Process configuration for main section
+	config_get_bool enabled main enabled 0
+	config_get agent_id main agent_id
+
+	# Call nping_instance
+	nping_instance
+}
+
+stop_service() {
+	service_stop $PROG
+}
+
+reload_service() {
+	stop
+	start
+}
+
+service_triggers() {
+	procd_add_reload_trigger "nping-agent"
+}
+
+status_service() {
+	service_running && {
+		echo "NPing Agent service is running"
+	} || {
+		echo "NPing Agent service is stopped"
+	}
+}

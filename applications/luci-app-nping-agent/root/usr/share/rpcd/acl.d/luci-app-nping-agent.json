@@ -1,0 +1,61 @@
+{
+    "luci-app-nping-agent": {
+        "description": "Grant UCI and file access for luci-app-nping-agent",
+        "read": {
+            "uci": [
+                "nping-agent"
+            ],
+            "ubus": {
+                "service": [
+                    "list",
+                    "status"
+                ],
+                "file": [
+                    "read",
+                    "stat",
+                    "exec"
+                ],
+                "luci": [
+                    "getVersion"
+                ],
+                "system": [
+                    "info"
+                ]
+            },
+            "file": {
+                "/usr/bin/nping-agent": [
+                    "exec"
+                ],
+                "/etc/init.d/nping-agent": [
+                    "exec"
+                ],
+                "/usr/libexec/nping-agent-call": [
+                    "exec"
+                ]
+            }
+        },
+        "write": {
+            "uci": [
+                "nping-agent"
+            ],
+            "ubus": {
+                "service": [
+                    "start",
+                    "stop"
+                ],
+                "file": [
+                    "write",
+                    "exec"
+                ]
+            },
+            "file": {
+                "/etc/init.d/nping-agent": [
+                    "exec"
+                ],
+                "/tmp": [
+                    "write"
+                ]
+            }
+        }
+    }
+}
