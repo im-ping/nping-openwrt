@@ -7,6 +7,23 @@
 'require poll';
 'require rpc';
 
+// Global debug switch - set to true to enable console output
+const DEBUG_MODE = false;
+
+// Debug log function that only outputs when DEBUG_MODE is true
+function log() {
+    if (DEBUG_MODE) {
+        console.log.apply(console, arguments);
+    }
+}
+
+// Debug error function that only outputs when DEBUG_MODE is true
+function logError() {
+    if (DEBUG_MODE) {
+        console.error.apply(console, arguments);
+    }
+}
+
 // RPC call to get system information
 const callSystemInfo = rpc.declare({
     object: 'system',
@@ -41,14 +58,14 @@ function checkFileExists(path) {
 
 // Get architecture name
 function getArchitecture() {
-    console.log('Starting to get architecture information');
+    log('Starting to get architecture information');
 
     // Use nping-agent-call script to get architecture information
     return callExec('/usr/libexec/nping-agent-call', ['arch']).then(function (res) {
-        console.log('Architecture retrieval result:', res);
+        log('Architecture retrieval result:', res);
 
         if (res.code !== 0) {
-            console.error('Architecture retrieval failed:', res.stderr);
+            logError('Architecture retrieval failed:', res.stderr);
 
             // Check for error code
             var errorMsg = 'Unknown error';
@@ -57,7 +74,7 @@ function getArchitecture() {
                 errorMsg = errorCode;
             }
 
-            console.error('Architecture retrieval error:', errorMsg);
+            logError('Architecture retrieval error:', errorMsg);
             return {
                 raw: _('Unknown'),
                 mapped: 'unknown'
@@ -67,17 +84,17 @@ function getArchitecture() {
         try {
             // Parse JSON response
             var archInfo = JSON.parse(res.stdout);
-            console.log('Architecture information:', archInfo);
+            log('Architecture information:', archInfo);
             return archInfo;
         } catch (e) {
-            console.error('Error parsing architecture information:', e);
+            logError('Error parsing architecture information:', e);
             return {
                 raw: _('Unknown'),
                 mapped: 'unknown'
             };
         }
     }).catch(function (error) {
-        console.error('Error in architecture retrieval call:', error);
+        logError('Error in architecture retrieval call:', error);
         return {
             raw: _('Unknown'),
             mapped: 'unknown'
@@ -87,11 +104,11 @@ function getArchitecture() {
 
 // Download and install agent
 function downloadAndInstallAgent(architecture) {
-    console.log('Starting download, architecture info:', architecture);
+    log('Starting download, architecture info:', architecture);
 
     // Ensure architecture object format is correct
     if (!architecture || typeof architecture !== 'object' || !architecture.mapped) {
-        console.error('Invalid architecture info', architecture);
+        logError('Invalid architecture info', architecture);
         ui.addNotification(null, E('p', _('Unable to determine device architecture, please install manually')));
         return Promise.reject('Invalid architecture');
     }
@@ -110,7 +127,7 @@ function downloadAndInstallAgent(architecture) {
 
     // Use nping-agent-call script to download and install file
     return callExec('/usr/libexec/nping-agent-call', ['download', architecture.mapped, targetPath]).then(function (res) {
-        console.log('Download installation result:', res);
+        log('Download installation result:', res);
         if (res.code !== 0 || res.stdout.indexOf('SUCCESS') === -1) {
             ui.hideModal();
             var errorMsg = _('Download or installation failed');
@@ -163,7 +180,7 @@ function downloadAndInstallAgent(architecture) {
 
         return true;
     }).catch(function (err) {
-        console.error('Processing error:', err);
+        logError('Processing error:', err);
         ui.hideModal();
         ui.addNotification(null, E('p', _('Unable to download or install NPing node program')));
         return false;
@@ -209,7 +226,7 @@ return view.extend({
                     running: res.code === 0 && res.stdout.indexOf('running') > -1
                 };
             }).catch(function (err) {
-                console.error('Failed to get service status:', err);
+                logError('Failed to get service status:', err);
                 return { running: false };
             }),
             uci.load('nping-agent'),
@@ -221,7 +238,7 @@ return view.extend({
     // Render file not exist page
     renderFileNotExist: function (architecture) {
         // Add debug output
-        console.log('Rendering file not exist page, architecture info:', architecture);
+        log('Rendering file not exist page, architecture info:', architecture);
 
         // Ensure architecture object format is correct
         if (!architecture || typeof architecture !== 'object') {
@@ -230,7 +247,7 @@ return view.extend({
 
         // Check if button should be disabled
         var isDisabled = !architecture.mapped || architecture.mapped === 'unknown';
-        console.log('Button disabled:', isDisabled, 'architecture mapped value:', architecture.mapped);
+        log('Button disabled:', isDisabled, 'architecture mapped value:', architecture.mapped);
 
         // Build button attributes
         var btnAttrs = {
@@ -322,11 +339,11 @@ return view.extend({
 
             // Get vendor_key value
             var vendorKeyValue = this.map.lookupOption('vendor_key', sectionName)[0].formvalue(sectionName);
-            console.log('Vendor Key:', vendorKeyValue);
+            log('Vendor Key:', vendorKeyValue);
 
             // Get name value
             var nameValue = this.map.lookupOption('name', sectionName)[0].formvalue(sectionName);
-            console.log('Node Name:', nameValue);
+            log('Node Name:', nameValue);
 
             if (!vendorKeyValue || vendorKeyValue.trim() === '') {
                 ui.addNotification(null, E('p', _('Please enter a valid registration key')));
@@ -354,7 +371,7 @@ return view.extend({
             // Use nping-agent-call script to register node
             callExec('/usr/libexec/nping-agent-call', ['register', vendorKeyValue, nameValue, country]).then(function (regRes) {
                 ui.hideModal();
-                console.log('Registration request result:', regRes);
+                log('Registration request result:', regRes);
 
                 if (regRes.code !== 0) {
                     var errorMsg = _('Registration request failed');
@@ -377,14 +394,14 @@ return view.extend({
                         }
                     }
 
-                    console.error('Registration request failed:', regRes.stderr);
+                    logError('Registration request failed:', regRes.stderr);
                     ui.addNotification(null, E('p', errorMsg));
                     return;
                 }
 
                 try {
                     var result = JSON.parse(regRes.stdout);
-                    console.log('Registration response:', result);
+                    log('Registration response:', result);
 
                     if (result && result.data) {
                         var agentId = result.data;
@@ -421,12 +438,12 @@ return view.extend({
                         ui.addNotification(null, E('p', _('Registration failed: ') + errorMsg));
                     }
                 } catch (e) {
-                    console.error('Error parsing registration response JSON:', e, 'Original response:', regRes.stdout);
+                    logError('Error parsing registration response JSON:', e, 'Original response:', regRes.stdout);
                     ui.addNotification(null, E('p', _('Registration response parsing failed')));
                 }
             }).catch(function (err) {
                 ui.hideModal();
-                console.error('Registration request execution error:', err);
+                logError('Registration request execution error:', err);
                 ui.addNotification(null, E('p', _('Registration request execution failed')));
             });
         };
@@ -479,7 +496,7 @@ return view.extend({
         o.inputtitle = serviceStatus && serviceStatus.running ? _('Stop Service') : _('Start Service');
         o.onclick = function () {
             // Print current button status for debugging
-            console.log('Button clicked, current status:', this.inputtitle, this.inputstyle);
+            log('Button clicked, current status:', this.inputtitle, this.inputstyle);
 
             // First check actual service status, then decide what to do
             ui.showModal(_('Checking service status...'), [
@@ -488,11 +505,11 @@ return view.extend({
 
             // Use init.d script to check service status
             callExec('/etc/init.d/nping-agent', ['status']).then(function (res) {
-                console.log('Service status check result:', res);
+                log('Service status check result:', res);
                 var isRunning = res.code === 0 && res.stdout.indexOf('running') > -1;
                 var action = isRunning ? 'stop' : 'start';
 
-                console.log('Status check parsing result:', isRunning, 'Executing action:', action);
+                log('Status check parsing result:', isRunning, 'Executing action:', action);
 
                 // Show progress hint
                 ui.showModal(action === 'stop' ? _('Stopping service...') : _('Starting service...'), [
@@ -502,7 +519,7 @@ return view.extend({
                 if (action === 'stop') {
                     // Stop service directly call init.d script
                     callExec('/etc/init.d/nping-agent', [action]).then(function (res) {
-                        console.log('Stop service result:', res);
+                        log('Stop service result:', res);
                         ui.hideModal();
 
                         if (res.code !== 0) {
@@ -518,13 +535,13 @@ return view.extend({
                         }, 1000);
                     }).catch(function (err) {
                         ui.hideModal();
-                        console.error('Service stop error:', err);
+                        logError('Service stop error:', err);
                         ui.addNotification(null, E('p', _('Service stop execution failed')));
                     });
                 } else {
                     // Start service needs to get agent_id
                     var agentId = uci.get('nping-agent', sectionName, 'agent_id') || '';
-                    console.log('Using Agent ID:', agentId);
+                    log('Using Agent ID:', agentId);
 
                     if (!agentId) {
                         ui.hideModal();
@@ -534,7 +551,7 @@ return view.extend({
 
                     // Use nping-agent-call script to create configuration and start service
                     callExec('/usr/libexec/nping-agent-call', ['start', agentId]).then(function (res) {
-                        console.log('Start service result:', res);
+                        log('Start service result:', res);
                         ui.hideModal();
 
                         if (res.code !== 0 || res.stdout.indexOf('SUCCESS') === -1) {
@@ -565,19 +582,19 @@ return view.extend({
                         ui.addNotification(null, E('p', _('Service started')), 3000);
 
                         // Refresh page to update status
-                        console.log('Service started successfully, will refresh page');
+                        log('Service started successfully, will refresh page');
                         setTimeout(function () {
                             window.location.reload();
                         }, 1000);
                     }).catch(function (err) {
                         ui.hideModal();
-                        console.error('Service start error:', err);
+                        logError('Service start error:', err);
                         ui.addNotification(null, E('p', _('Service start execution failed')));
                     });
                 }
             }).catch(function (err) {
                 ui.hideModal();
-                console.error('Service status check error:', err);
+                logError('Service status check error:', err);
                 ui.addNotification(null, E('p', _('Service status check failed')));
             });
 
@@ -596,7 +613,7 @@ return view.extend({
 
             // Get value of enabled from form
             var enabledValue = this.map.lookupOption('enabled', sectionName)[0].formvalue(sectionName);
-            console.log('Enabled value:', enabledValue);
+            log('Enabled value:', enabledValue);
 
             uci.load('nping-agent')
                 .then(async () => {
@@ -628,10 +645,10 @@ return view.extend({
         var architecture = data[4];
 
         // Debug: Check configuration structure
-        console.log('UCI Data:', uciData);
-        console.log('Agent Version:', agentVersion);
-        console.log('Architecture:', architecture);
-        console.log('Service Status from RPC:', serviceStatus);
+        log('UCI Data:', uciData);
+        log('Agent Version:', agentVersion);
+        log('Architecture:', architecture);
+        log('Service Status from RPC:', serviceStatus);
 
 
         // Ensure architecture object structure is correct
@@ -652,10 +669,10 @@ return view.extend({
         var sectionName = null;
         uci.sections('nping-agent', 'nping-agent').forEach(function (section) {
             sectionName = section['.name'];
-            console.log('Section content:', section);
+            log('Section content:', section);
         });
 
-        console.log('Section name:', sectionName);
+        log('Section name:', sectionName);
 
         // Check if file exists
         if (!agentVersion || !agentVersion.exists) {
@@ -668,7 +685,7 @@ return view.extend({
             agentId = uci.get('nping-agent', sectionName, 'agent_id') || '';
         }
 
-        console.log('Agent ID:', agentId);
+        log('Agent ID:', agentId);
 
         // If agent_id is empty, show not registered page
         if (!agentId || agentId.trim() === '') {
