@@ -9,6 +9,6 @@ PKG_LICENSE:=Apache-2.0
 PKG_VERSION:=1.0
 PKG_MAINTAINER:=samlm0 <samlm0@pm.me>
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
